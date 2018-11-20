@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="prvDialog">
+		<title>PRV</title>
+		<size>800,480</size>
+		<style>wxNO_BORDER</style>
+		<object class="wmSwitcherPanel" name="ID_M_PSWP1" variable="m_pswpMain" member="yes">
+			<pos>0,0</pos>
+			<size>800,480</size>
+			<style>wmSwitcherPanel::STYLE_NOSWIPE|wmSwitcherPanel::STYLE_NOANIMATION</style>
+			<object class="wmSwitcherPanelpage">
+				<object class="wxPanel" name="ID_PANEL1" variable="m_pppnlSplash" member="yes">
+					<bg>#800000</bg>
+				</object>
+				<label>Splash</label>
+			</object>
+			<object class="wmSwitcherPanelpage">
+				<object class="wxPanel" name="ID_PANEL5" subclass="pnlPlayer" variable="m_ppnlVLC" member="yes">
+					<pos>0,0</pos>
+					<size>600,480</size>
+				</object>
+				<label>Player</label>
+			</object>
+			<object class="wmSwitcherPanelpage">
+				<object class="wxPanel" name="ID_PANEL3" variable="m_ppnlSearch" member="yes">
+					<bg>#0000FF</bg>
+				</object>
+				<label>Search</label>
+			</object>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxPanel" name="pnlPlayer">
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<handler function="OnLeftUp" entry="EVT_LEFT_UP" />
+		<object class="wxPanel" name="ID_PANEL4" variable="m_ppnlChannels" member="yes">
+			<pos>600,0</pos>
+			<size>200,480</size>
+			<bg>#000000</bg>
+			<object class="wmList" name="ID_M_PLST1" variable="m_plstChannels" member="yes">
+				<button_size>-1,30</button_size>
+				<button>#000000</button>
+				<button_pressed>#FF8040</button_pressed>
+				<button_selected>#FF8000</button_selected>
+				<items />
+				<pos>0,0</pos>
+				<size>200,430</size>
+				<bg>#000000</bg>
+				<style>wmList::STYLE_SELECT</style>
+				<handler function="OnlstChannelsSelected" entry="EVT_LIST_SELECTED" />
+			</object>
+			<object class="wmList" name="ID_M_PLST2" variable="m_plstSort" member="yes">
+				<scrolling>None</scrolling>
+				<button_gap>3,1</button_gap>
+				<columns>2</columns>
+				<button>#400080</button>
+				<button_selected>#008000</button_selected>
+				<items />
+				<pos>0,435</pos>
+				<size>200,45</size>
+				<bg>#000000</bg>
+				<style>wmList::STYLE_SELECT</style>
+				<handler function="OnlstSortSelected" entry="EVT_LIST_SELECTED" />
+			</object>
+		</object>
+		<object class="wxPanel" name="ID_PANEL1" variable="m_pVlcPanel" member="yes">
+			<pos>0,0</pos>
+			<size>600,480</size>
+			<handler function="OnLeftUp" entry="EVT_LEFT_UP" />
+		</object>
+	</object>
+</wxsmith>

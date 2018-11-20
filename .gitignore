@@ -1,0 +1,8 @@
+*.wmv
+*.exe
+*.o
+*.res
+*.bak
+*.depend
+*.layout
+/desktop.ini
