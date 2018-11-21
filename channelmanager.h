@@ -2,13 +2,15 @@
 #include <wx/xml/xml.h>
 #include <wx/filename.h>
 #include <map>
+#include <list>
+
 
 struct channel
 {
     unsigned long nNumber;
     wxString sName;
     wxString sLocation;
-    wxString sProgram;
+    std::list<wxString> lstOptions;
 };
 
 class ChannelManager

@@ -94,9 +94,10 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
                 {
                     pVlcNode->GetNodeContent().ToULong(&aChannel.nNumber);
                 }
-                else if(pVlcNode->GetName().CmpNoCase(wxT("vlc:option")) && pVlcNode->GetNodeContent().BeforeFirst(wxT('=')).CmpNoCase(wxT("program"))==0)
+                else if(pVlcNode->GetName().CmpNoCase(wxT("vlc:option")) == 0)
                 {
-                    aChannel.sProgram = pVlcNode->GetNodeContent();
+                    aChannel.lstOptions.push_back(pVlcNode->GetNodeContent());
+
                 }
             }
         }

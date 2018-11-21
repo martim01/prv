@@ -6,3 +6,5 @@
 *.depend
 *.layout
 /desktop.ini
+/bin/*
+/obj/*

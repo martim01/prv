@@ -80,11 +80,6 @@ prvDialog::prvDialog(wxWindow* parent,wxWindowID id)
     m_ppnlVLC->ShowChannelList(true);
 
 
-
-    wxFileName filename = wxFileName::FileName(wxT("C:\\Users\\Public\\Videos\\Sample Videos\\wildlife.wmv"));
-    filename.MakeRelativeTo();
-
-    m_ppnlVLC->PlayFile(filename.GetFullPath());
 }
 
 prvDialog::~prvDialog()

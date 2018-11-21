@@ -7,6 +7,7 @@
 #include "wmlist.h"
 //*)
 
+struct channel;
 
 class pnlPlayer: public wxPanel
 {
@@ -22,7 +23,7 @@ class pnlPlayer: public wxPanel
 		wxPanel* m_ppnlChannels;
 		//*)
 
-        void PlayLocation(const wxString& sLocation);
+        void PlayLocation(const channel& aChannel);
         void PlayFile(const wxString& sFile);
 
         void ShowChannelList(bool bName);

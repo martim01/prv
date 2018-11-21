@@ -4,12 +4,12 @@
 #include <climits>
 #include <wx/log.h>
 #include "channelmanager.h"
-
 #ifdef __WXGTK__
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
-#include <wx/gtk/win_gtk.h>
-#define GET_XID(window) GDK_WINDOW_XWINDOW(GTK_PIZZA(window->m_wxwindow)->bin_window)
+#include <gdk/gdk.h>
+//#include <wx/gtk/win_gtk.h>
+//#define GET_XID(window) GDK_WINDOW_XWINDOW(GTK_PIZZA(window->m_wxwindow)->bin_window)
 #endif
 
 using namespace std;
@@ -64,8 +64,9 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	m_ppnlChannels->Hide();
 	m_pVlcPanel->SetSize(800,480);
 
-
+    m_pVlcPlayer = 0;
 	//setup vlc
+	//"--no-xlib"
     m_pVlcInst = libvlc_new(0, NULL);
     if(m_pVlcInst)
     {
@@ -84,6 +85,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 //            {
 //                wxLogDebug(wxT("Event Error: %s"), wxString::FromAscii(libvlc_errmsg()).c_str());
 //            }
+            InitVlc();
         }
         else
         {
@@ -96,7 +98,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
     }
 
 
-    InitVlc();
+
 }
 
 pnlPlayer::~pnlPlayer()
@@ -115,7 +117,13 @@ void pnlPlayer::InitVlc()
         libvlc_video_set_key_input(m_pVlcPlayer, false);
 
 #ifdef __WXGTK__
-        libvlc_media_player_set_xwindow(m_pVlcPlayer, GET_XID(m_pVlcPanel));
+
+    GtkWidget* pWidget = m_pVlcPanel->GetHandle();
+    gtk_widget_realize(pWidget);
+    unsigned int nXid = GDK_WINDOW_XWINDOW(pWidget->window);
+    wxLogDebug(wxT("XID = %d"), nXid);
+    libvlc_media_player_set_xwindow(m_pVlcPlayer, nXid);
+
 #else
         libvlc_media_player_set_hwnd(m_pVlcPlayer, m_pVlcPanel->GetHandle());
 
@@ -125,27 +133,39 @@ void pnlPlayer::InitVlc()
 }
 
 
-void pnlPlayer::PlayLocation(const wxString& sLocation)
+void pnlPlayer::PlayLocation(const channel& aChannel)
 {
-    libvlc_media_t* pMedia;
-    pMedia = libvlc_media_new_location(m_pVlcInst, sLocation.mb_str());
-    libvlc_media_player_set_media(m_pVlcPlayer, pMedia);
 
-    libvlc_media_player_play(m_pVlcPlayer);
+    if(m_pVlcPlayer)
+    {
+        libvlc_media_player_stop(m_pVlcPlayer);
 
-    libvlc_media_release(pMedia);
+        libvlc_media_t* pMedia;
+        pMedia = libvlc_media_new_location(m_pVlcInst, aChannel.sLocation.mb_str());
+        for(list<wxString>::const_iterator itOption = aChannel.lstOptions.begin(); itOption != aChannel.lstOptions.end(); ++itOption)
+        {
+            libvlc_media_add_option(pMedia, (*itOption).mb_str());
+        }
+
+        libvlc_media_player_set_media(m_pVlcPlayer, pMedia);
+        libvlc_media_player_play(m_pVlcPlayer);
+        libvlc_media_release(pMedia);
+    }
 }
 
 
 void pnlPlayer::PlayFile(const wxString& sFile)
 {
-    libvlc_media_t* pMedia;
-    pMedia = libvlc_media_new_path(m_pVlcInst, sFile.mb_str());
-    libvlc_media_player_set_media(m_pVlcPlayer, pMedia);
+    if(m_pVlcPlayer)
+    {
+        libvlc_media_t* pMedia;
+        pMedia = libvlc_media_new_path(m_pVlcInst, sFile.mb_str());
+        libvlc_media_player_set_media(m_pVlcPlayer, pMedia);
 
-    libvlc_media_player_play(m_pVlcPlayer);
+        libvlc_media_player_play(m_pVlcPlayer);
 
-    libvlc_media_release(pMedia);
+        libvlc_media_release(pMedia);
+    }
 }
 
 void pnlPlayer::OnLeftUp(wxMouseEvent& event)
@@ -167,7 +187,7 @@ void pnlPlayer::OnlstChannelsSelected(wxCommandEvent& event)
     map<size_t, channel>::const_iterator itChannel = ChannelManager::Get().FindChannel(reinterpret_cast<size_t>(event.GetClientData()));
     if(itChannel != ChannelManager::Get().GetChannelNumberEnd())
     {
-        PlayLocation(wxString::Format(wxT("%s %s"), itChannel->second.sLocation.c_str(), itChannel->second.sProgram.c_str()));
+        PlayLocation(itChannel->second);
     }
 }
 
