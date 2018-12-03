@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxPanel" name="pnlPlayer">
+		<pos>0,0</pos>
+		<size>1280,800</size>
+		<bg>#000000</bg>
 		<pos_arg>1</pos_arg>
 		<size_arg>1</size_arg>
 		<handler function="OnLeftUp" entry="EVT_LEFT_UP" />
 		<object class="wxPanel" name="ID_PANEL4" variable="m_ppnlChannels" member="yes">
-			<pos>600,0</pos>
-			<size>200,480</size>
+			<pos>1000,0</pos>
+			<size>280,800</size>
 			<bg>#000000</bg>
+			<object class="wmLabel" name="ID_M_PLBL1" variable="m_plblFilter" member="yes">
+				<label>Frequency</label>
+				<border>uiRect::BORDER_DOWN</border>
+				<pos>0,0</pos>
+				<size>280,45</size>
+				<bg>#FFFFFF</bg>
+			</object>
 			<object class="wmList" name="ID_M_PLST1" variable="m_plstChannels" member="yes">
 				<button_size>-1,30</button_size>
 				<button>#000000</button>
 				<button_pressed>#FF8040</button_pressed>
 				<button_selected>#FF8000</button_selected>
 				<items />
-				<pos>0,0</pos>
-				<size>200,430</size>
+				<pos>0,50</pos>
+				<size>280,700</size>
 				<bg>#000000</bg>
 				<style>wmList::STYLE_SELECT</style>
 				<handler function="OnlstChannelsSelected" entry="EVT_LIST_SELECTED" />
@@ -23,12 +33,12 @@
 			<object class="wmList" name="ID_M_PLST2" variable="m_plstSort" member="yes">
 				<scrolling>None</scrolling>
 				<button_gap>3,1</button_gap>
-				<columns>2</columns>
+				<columns>3</columns>
 				<button>#400080</button>
 				<button_selected>#008000</button_selected>
 				<items />
-				<pos>0,435</pos>
-				<size>200,45</size>
+				<pos>0,755</pos>
+				<size>280,45</size>
 				<bg>#000000</bg>
 				<style>wmList::STYLE_SELECT</style>
 				<handler function="OnlstSortSelected" entry="EVT_LIST_SELECTED" />
@@ -36,8 +46,68 @@
 		</object>
 		<object class="wxPanel" name="ID_PANEL1" variable="m_pVlcPanel" member="yes">
 			<pos>0,0</pos>
-			<size>600,480</size>
+			<size>1000,600</size>
+			<bg>#000000</bg>
 			<handler function="OnLeftUp" entry="EVT_LEFT_UP" />
+		</object>
+		<object class="wxPanel" name="ID_PANEL2" variable="m_ppnlFilter" member="yes">
+			<pos>0,600</pos>
+			<size>1000,200</size>
+			<bg>#000000</bg>
+			<object class="wmList" name="ID_M_PLST3" variable="m_plstLetters" member="yes">
+				<scrolling>None</scrolling>
+				<button_gap>5,5</button_gap>
+				<button_size>-1,50</button_size>
+				<columns>13</columns>
+				<button>#000000</button>
+				<button_pressed>#FF8040</button_pressed>
+				<button_selected>#FF8000</button_selected>
+				<items />
+				<pos>0,90</pos>
+				<size>900,110</size>
+				<bg>#000000</bg>
+				<font>
+					<size>16</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Arial</face>
+				</font>
+				<handler function="OnlstLettersSelected" entry="EVT_LIST_SELECTED" />
+			</object>
+			<object class="wmButton" name="ID_M_PBTN1" variable="m_pbtnBack" member="yes">
+				<label>Back</label>
+				<button_pressed>#804000</button_pressed>
+				<pos>910,92</pos>
+				<size>80,50</size>
+				<bg>#000000</bg>
+				<font>
+					<size>16</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Arial</face>
+				</font>
+				<handler function="OnbtnBackClick" entry="EVT_BUTTON" />
+			</object>
+			<object class="wmButton" name="ID_M_PBTN2" variable="m_pbtnClear" member="yes">
+				<label>Clear</label>
+				<button_pressed>#804000</button_pressed>
+				<pos>910,147</pos>
+				<size>80,50</size>
+				<bg>#000000</bg>
+				<font>
+					<size>16</size>
+					<style>normal</style>
+					<weight>normal</weight>
+					<underlined>0</underlined>
+					<family>swiss</family>
+					<face>Arial</face>
+				</font>
+				<handler function="OnbtnClearClick" entry="EVT_BUTTON" />
+			</object>
 		</object>
 	</object>
 </wxsmith>

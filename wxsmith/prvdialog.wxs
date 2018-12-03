@@ -2,11 +2,11 @@
 <wxsmith>
 	<object class="wxDialog" name="prvDialog">
 		<title>PRV</title>
-		<size>800,480</size>
+		<size>1280,800</size>
 		<style>wxNO_BORDER</style>
 		<object class="wmSwitcherPanel" name="ID_M_PSWP1" variable="m_pswpMain" member="yes">
 			<pos>0,0</pos>
-			<size>800,480</size>
+			<size>1280,800</size>
 			<style>wmSwitcherPanel::STYLE_NOSWIPE|wmSwitcherPanel::STYLE_NOANIMATION</style>
 			<object class="wmSwitcherPanelpage">
 				<object class="wxPanel" name="ID_PANEL1" variable="m_pppnlSplash" member="yes">
