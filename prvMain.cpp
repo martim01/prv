@@ -59,8 +59,8 @@ prvDialog::prvDialog(wxWindow* parent,wxWindowID id)
 {
     //(*Initialize(prvDialog)
     Create(parent, id, _("PRV"), wxDefaultPosition, wxDefaultSize, wxNO_BORDER, _T("id"));
-    SetClientSize(wxSize(800,480));
-    m_pswpMain = new wmSwitcherPanel(this, ID_M_PSWP1, wxPoint(0,0), wxSize(800,480), wmSwitcherPanel::STYLE_NOSWIPE|wmSwitcherPanel::STYLE_NOANIMATION, _T("ID_M_PSWP1"));
+    SetClientSize(wxSize(1280,800));
+    m_pswpMain = new wmSwitcherPanel(this, ID_M_PSWP1, wxPoint(0,0), wxSize(1280,800), wmSwitcherPanel::STYLE_NOSWIPE|wmSwitcherPanel::STYLE_NOANIMATION, _T("ID_M_PSWP1"));
     m_pswpMain->SetPageNameStyle(0);
     m_pppnlSplash = new wxPanel(m_pswpMain, ID_PANEL1, wxDefaultPosition, wxDefaultSize, wxTAB_TRAVERSAL, _T("ID_PANEL1"));
     m_pppnlSplash->SetBackgroundColour(wxColour(128,0,0));
