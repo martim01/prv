@@ -124,8 +124,9 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
        wxLogDebug(wxT("VLC Error: %s"), wxString::FromAscii(libvlc_errmsg()).c_str());
     }
 
-
-    m_plstSort->SelectButton(Settings::Get().Read(wxT("Channels"), wxT("Sort"), wxT("Name")), true);
+    wxString sSort(Settings::Get().Read(wxT("Channels"), wxT("Sort"), wxT("Name")));
+    wxLogDebug(wxT("Sort = %s"), sSort.c_str());
+    m_plstSort->SelectButton(sSort, true);
 
     unsigned long nProgram = Settings::Get().Read(wxT("Channels"), wxT("Current"), 0);
     if(nProgram != 0)
@@ -241,6 +242,7 @@ void pnlPlayer::PlayProgram(unsigned long nProgram)
 
 void pnlPlayer::OnlstSortSelected(wxCommandEvent& event)
 {
+    wxLogDebug(wxT("OnLstSort: %s"), event.GetString().c_str());
     Settings::Get().Write(wxT("Channels"), wxT("Sort"), event.GetString());
 
     m_plblFilter->SetLabel(wxEmptyString);

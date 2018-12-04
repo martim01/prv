@@ -5,7 +5,7 @@
 	<info>http://wirbel.htpc-forum.de</info>
 	<trackList>
 		<track>
-			<title>0001. Sky News</title>
+			<title>Sky News</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -17,9 +17,10 @@
 				<vlc:id>2</vlc:id>
 				<vlc:option>program=22080</vlc:option>
 			</extension>
+			<channel_number>113</channel_number>
 		</track>
 		<track>
-			<title>0002. France 24 HD (in English)</title>
+			<title>France 24 HD (in English)</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -31,9 +32,10 @@
 				<vlc:id>3</vlc:id>
 				<vlc:option>program=13850</vlc:option>
 			</extension>
+			<channel_number>121</channel_number>
 		</track>
 		<track>
-			<title>0003. LBC 97.3</title>
+			<title>LBC 97.3</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -45,9 +47,10 @@
 				<vlc:id>4</vlc:id>
 				<vlc:option>program=1201</vlc:option>
 			</extension>
+			<channel_number>761</channel_number>
 		</track>
 		<track>
-			<title>0004. Capital FM</title>
+			<title>Capital FM</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -59,9 +62,10 @@
 				<vlc:id>5</vlc:id>
 				<vlc:option>program=1202</vlc:option>
 			</extension>
+			<channel_number>764</channel_number>
 		</track>
 		<track>
-			<title>0005. Classic FM</title>
+			<title>Classic FM</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -73,9 +77,10 @@
 				<vlc:id>6</vlc:id>
 				<vlc:option>program=1203</vlc:option>
 			</extension>
+			<channel_number>765</channel_number>
 		</track>
 		<track>
-			<title>0006. X FM</title>
+			<title>X FM</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -87,9 +92,10 @@
 				<vlc:id>7</vlc:id>
 				<vlc:option>program=1204</vlc:option>
 			</extension>
+			<channel_number>766</channel_number>
 		</track>
 		<track>
-			<title>0007. Kiss FM</title>
+			<title>Kiss FM</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -101,9 +107,10 @@
 				<vlc:id>8</vlc:id>
 				<vlc:option>program=1205</vlc:option>
 			</extension>
+			<channel_number>769</channel_number>
 		</track>
 		<track>
-			<title>0008. BBC London</title>
+			<title>BBC London</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -115,9 +122,10 @@
 				<vlc:id>9</vlc:id>
 				<vlc:option>program=1206</vlc:option>
 			</extension>
+			<channel_number>741</channel_number>
 		</track>
 		<track>
-			<title>0009. BBC NEWS</title>
+			<title>BBC NEWS</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -129,9 +137,10 @@
 				<vlc:id>10</vlc:id>
 				<vlc:option>program=6405</vlc:option>
 			</extension>
+			<channel_number>106</channel_number>
 		</track>
 		<track>
-			<title>0010. ITV4</title>
+			<title>ITV4</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -143,9 +152,10 @@
 				<vlc:id>11</vlc:id>
 				<vlc:option>program=28032</vlc:option>
 			</extension>
+			<channel_number>170</channel_number>
 		</track>
 		<track>
-			<title>0011. Al Jazeera English</title>
+			<title>Al Jazeera English</title>
 			<location>dvb-t://frequency=474000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -157,9 +167,10 @@
 				<vlc:id>12</vlc:id>
 				<vlc:option>program=1714</vlc:option>
 			</extension>
+			<channel_number>115</channel_number>
 		</track>
 		<track>
-			<title>0012. BBC One HD</title>
+			<title>BBC One HD</title>
 			<location>dvb-t://frequency=794000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -171,9 +182,10 @@
 				<vlc:id>13</vlc:id>
 				<vlc:option>program=6941</vlc:option>
 			</extension>
+			<channel_number>191</channel_number>
 		</track>
 		<track>
-			<title>0013. BBC Two HD</title>
+			<title>BBC Two HD</title>
 			<location>dvb-t://frequency=794000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -185,9 +197,10 @@
 				<vlc:id>14</vlc:id>
 				<vlc:option>program=6940</vlc:option>
 			</extension>
+			<channel_number>192</channel_number>
 		</track>
 		<track>
-			<title>0014. MRM Main TV Studio</title>
+			<title>MRM Main TV Studio</title>
 			<location>dvb-t://frequency=794000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -199,9 +212,10 @@
 				<vlc:id>15</vlc:id>
 				<vlc:option>program=6001</vlc:option>
 			</extension>
+			<channel_number>421</channel_number>
 		</track>
 		<track>
-			<title>0015. BBC ONE Lon</title>
+			<title>BBC ONE Lon</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -213,9 +227,10 @@
 				<vlc:id>16</vlc:id>
 				<vlc:option>program=4164</vlc:option>
 			</extension>
+			<channel_number>101</channel_number>
 		</track>
 		<track>
-			<title>0016. BBC TWO</title>
+			<title>BBC TWO</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -227,9 +242,10 @@
 				<vlc:id>17</vlc:id>
 				<vlc:option>program=4287</vlc:option>
 			</extension>
+			<channel_number>102</channel_number>
 		</track>
 		<track>
-			<title>0017. CBBC</title>
+			<title>CBBC</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -241,9 +257,10 @@
 				<vlc:id>18</vlc:id>
 				<vlc:option>program=4608</vlc:option>
 			</extension>
+			<channel_number>181</channel_number>
 		</track>
 		<track>
-			<title>0018. CBeebies</title>
+			<title>CBeebies</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -255,9 +272,10 @@
 				<vlc:id>19</vlc:id>
 				<vlc:option>program=4672</vlc:option>
 			</extension>
+			<channel_number>182</channel_number>
 		</track>
 		<track>
-			<title>0019. BBC Parliament</title>
+			<title>BBC Parliament</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -269,9 +287,10 @@
 				<vlc:id>20</vlc:id>
 				<vlc:option>program=4736</vlc:option>
 			</extension>
+			<channel_number>116</channel_number>
 		</track>
 		<track>
-			<title>0020. BBC R5L</title>
+			<title>BBC R5L</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -283,9 +302,10 @@
 				<vlc:id>21</vlc:id>
 				<vlc:option>program=5632</vlc:option>
 			</extension>
+			<channel_number>705</channel_number>
 		</track>
 		<track>
-			<title>0021. BBC 6 Music</title>
+			<title>BBC 6 Music</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -297,9 +317,10 @@
 				<vlc:id>22</vlc:id>
 				<vlc:option>program=5760</vlc:option>
 			</extension>
+			<channel_number>706</channel_number>
 		</track>
 		<track>
-			<title>0022. BBC Radio 4 Ex</title>
+			<title>BBC Radio 4 Ex</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -311,9 +332,10 @@
 				<vlc:id>23</vlc:id>
 				<vlc:option>program=5824</vlc:option>
 			</extension>
+			<channel_number>707</channel_number>
 		</track>
 		<track>
-			<title>0023. BBC R1X</title>
+			<title>BBC R1X</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -325,9 +347,10 @@
 				<vlc:id>24</vlc:id>
 				<vlc:option>program=5888</vlc:option>
 			</extension>
+			<channel_number>709</channel_number>
 		</track>
 		<track>
-			<title>0024. BBC Asian Net.</title>
+			<title>BBC Asian Net.</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -339,9 +362,10 @@
 				<vlc:id>25</vlc:id>
 				<vlc:option>program=5952</vlc:option>
 			</extension>
+			<channel_number>708</channel_number>
 		</track>
 		<track>
-			<title>0025. BBC World Sv.</title>
+			<title>BBC World Sv.</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -353,9 +377,10 @@
 				<vlc:id>26</vlc:id>
 				<vlc:option>program=6016</vlc:option>
 			</extension>
+			<channel_number>712</channel_number>
 		</track>
 		<track>
-			<title>0026. BBC Radio 1</title>
+			<title>BBC Radio 1</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -367,9 +392,10 @@
 				<vlc:id>27</vlc:id>
 				<vlc:option>program=6720</vlc:option>
 			</extension>
+			<channel_number>701</channel_number>
 		</track>
 		<track>
-			<title>0027. BBC Radio 2</title>
+			<title>BBC Radio 2</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -381,9 +407,10 @@
 				<vlc:id>28</vlc:id>
 				<vlc:option>program=6784</vlc:option>
 			</extension>
+			<channel_number>702</channel_number>
 		</track>
 		<track>
-			<title>0028. BBC Radio 3</title>
+			<title>BBC Radio 3</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -395,9 +422,10 @@
 				<vlc:id>29</vlc:id>
 				<vlc:option>program=6848</vlc:option>
 			</extension>
+			<channel_number>703</channel_number>
 		</track>
 		<track>
-			<title>0029. BBC Radio 4</title>
+			<title>BBC Radio 4</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -409,9 +437,10 @@
 				<vlc:id>30</vlc:id>
 				<vlc:option>program=6912</vlc:option>
 			</extension>
+			<channel_number>704</channel_number>
 		</track>
 		<track>
-			<title>0030. BBC Red Button</title>
+			<title>BBC Red Button</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -423,9 +452,10 @@
 				<vlc:id>31</vlc:id>
 				<vlc:option>program=4416</vlc:option>
 			</extension>
+			<channel_number>199</channel_number>
 		</track>
 		<track>
-			<title>0031. BBC NEWS</title>
+			<title>BBC NEWS</title>
 			<location>dvb-t://frequency=482000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -437,9 +467,10 @@
 				<vlc:id>32</vlc:id>
 				<vlc:option>program=4352</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0032. EBU PEN</title>
+			<title>EBU PEN</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -451,9 +482,10 @@
 				<vlc:id>33</vlc:id>
 				<vlc:option>program=1026</vlc:option>
 			</extension>
+			<channel_number>132</channel_number>
 		</track>
 		<track>
-			<title>0033. AFP TV </title>
+			<title>AFP TV </title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -465,9 +497,10 @@
 				<vlc:id>34</vlc:id>
 				<vlc:option>program=1027</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0034. Studio S31</title>
+			<title>Studio S31</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -479,9 +512,10 @@
 				<vlc:id>35</vlc:id>
 				<vlc:option>program=1211</vlc:option>
 			</extension>
+			<channel_number>831</channel_number>
 		</track>
 		<track>
-			<title>0035. Studio S33</title>
+			<title>Studio S33</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -493,9 +527,10 @@
 				<vlc:id>36</vlc:id>
 				<vlc:option>program=1212</vlc:option>
 			</extension>
+			<channel_number>833</channel_number>
 		</track>
 		<track>
-			<title>0036. Studio SL1</title>
+			<title>Studio SL1</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -507,9 +542,10 @@
 				<vlc:id>37</vlc:id>
 				<vlc:option>program=1213</vlc:option>
 			</extension>
+			<channel_number>835</channel_number>
 		</track>
 		<track>
-			<title>0037. Workshop L1</title>
+			<title>Workshop L1</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -521,9 +557,10 @@
 				<vlc:id>38</vlc:id>
 				<vlc:option>program=1214</vlc:option>
 			</extension>
+			<channel_number>811</channel_number>
 		</track>
 		<track>
-			<title>0038. Workshop L3</title>
+			<title>Workshop L3</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -535,9 +572,10 @@
 				<vlc:id>39</vlc:id>
 				<vlc:option>program=1215</vlc:option>
 			</extension>
+			<channel_number>813</channel_number>
 		</track>
 		<track>
-			<title>0039. Workshop 21</title>
+			<title>Workshop 21</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -549,9 +587,10 @@
 				<vlc:id>40</vlc:id>
 				<vlc:option>program=1216</vlc:option>
 			</extension>
+			<channel_number>821</channel_number>
 		</track>
 		<track>
-			<title>0040. BBC Insight</title>
+			<title>BBC Insight</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -563,9 +602,10 @@
 				<vlc:id>41</vlc:id>
 				<vlc:option>program=1101</vlc:option>
 			</extension>
+			<channel_number>250</channel_number>
 		</track>
 		<track>
-			<title>0041. Sports Mtx 10</title>
+			<title>Sports Mtx 10</title>
 			<location>dvb-t://frequency=490000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -577,9 +617,10 @@
 				<vlc:id>42</vlc:id>
 				<vlc:option>program=4041</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0042. ITV1 London</title>
+			<title>ITV1 London</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -591,9 +632,10 @@
 				<vlc:id>43</vlc:id>
 				<vlc:option>program=8261</vlc:option>
 			</extension>
+			<channel_number>103</channel_number>
 		</track>
 		<track>
-			<title>0043. Channel 4</title>
+			<title>Channel 4</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -605,9 +647,10 @@
 				<vlc:id>44</vlc:id>
 				<vlc:option>program=8384</vlc:option>
 			</extension>
+			<channel_number>104</channel_number>
 		</track>
 		<track>
-			<title>0044. Channel 5</title>
+			<title>Channel 5</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -619,9 +662,10 @@
 				<vlc:id>45</vlc:id>
 				<vlc:option>program=8500</vlc:option>
 			</extension>
+			<channel_number>105</channel_number>
 		</track>
 		<track>
-			<title>0045. ITV2</title>
+			<title>ITV2</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -633,9 +677,10 @@
 				<vlc:id>46</vlc:id>
 				<vlc:option>program=8325</vlc:option>
 			</extension>
+			<channel_number>164</channel_number>
 		</track>
 		<track>
-			<title>0046. E4</title>
+			<title>E4</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -647,9 +692,10 @@
 				<vlc:id>47</vlc:id>
 				<vlc:option>program=8448</vlc:option>
 			</extension>
+			<channel_number>166</channel_number>
 		</track>
 		<track>
-			<title>0047. More 4</title>
+			<title>More 4</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -661,9 +707,10 @@
 				<vlc:id>48</vlc:id>
 				<vlc:option>program=8442</vlc:option>
 			</extension>
+			<channel_number>167</channel_number>
 		</track>
 		<track>
-			<title>0048. LBC 1152</title>
+			<title>LBC 1152</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -675,9 +722,10 @@
 				<vlc:id>49</vlc:id>
 				<vlc:option>program=2201</vlc:option>
 			</extension>
+			<channel_number>762</channel_number>
 		</track>
 		<track>
-			<title>0049. Talk 1053</title>
+			<title>Talk 1053</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -689,9 +737,10 @@
 				<vlc:id>50</vlc:id>
 				<vlc:option>program=2202</vlc:option>
 			</extension>
+			<channel_number>763</channel_number>
 		</track>
 		<track>
-			<title>0050. Capital AM</title>
+			<title>Capital AM</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -703,9 +752,10 @@
 				<vlc:id>51</vlc:id>
 				<vlc:option>program=2203</vlc:option>
 			</extension>
+			<channel_number>767</channel_number>
 		</track>
 		<track>
-			<title>0051. Jazz FM</title>
+			<title>Jazz FM</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -717,9 +767,10 @@
 				<vlc:id>52</vlc:id>
 				<vlc:option>program=2205</vlc:option>
 			</extension>
+			<channel_number>770</channel_number>
 		</track>
 		<track>
-			<title>0052. BBC Radio 4 LW</title>
+			<title>BBC Radio 4 LW</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -731,9 +782,10 @@
 				<vlc:id>53</vlc:id>
 				<vlc:option>program=2206</vlc:option>
 			</extension>
+			<channel_number>710</channel_number>
 		</track>
 		<track>
-			<title>0053. BBC R5 Sports Extra DAB</title>
+			<title>BBC R5 Sports Extra DAB</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -745,9 +797,10 @@
 				<vlc:id>54</vlc:id>
 				<vlc:option>program=2207</vlc:option>
 			</extension>
+			<channel_number>711</channel_number>
 		</track>
 		<track>
-			<title>0054. Absolute Radio</title>
+			<title>Absolute Radio</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -759,9 +812,10 @@
 				<vlc:id>55</vlc:id>
 				<vlc:option>program=14688</vlc:option>
 			</extension>
+			<channel_number>768</channel_number>
 		</track>
 		<track>
-			<title>0055. MB Sat - Test 10</title>
+			<title>MB Sat - Test 10</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -773,9 +827,10 @@
 				<vlc:id>56</vlc:id>
 				<vlc:option>program=8011</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0056. ITV3</title>
+			<title>ITV3</title>
 			<location>dvb-t://frequency=498000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -787,9 +842,10 @@
 				<vlc:id>57</vlc:id>
 				<vlc:option>program=16048</vlc:option>
 			</extension>
+			<channel_number>165</channel_number>
 		</track>
 		<track>
-			<title>0057. CCR Bookable 1 </title>
+			<title>CCR Bookable 1 </title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -801,9 +857,10 @@
 				<vlc:id>58</vlc:id>
 				<vlc:option>program=1208</vlc:option>
 			</extension>
+			<channel_number>891</channel_number>
 		</track>
 		<track>
-			<title>0058. CCR Bookable 3 </title>
+			<title>CCR Bookable 3 </title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -815,9 +872,10 @@
 				<vlc:id>59</vlc:id>
 				<vlc:option>program=1209</vlc:option>
 			</extension>
+			<channel_number>893</channel_number>
 		</track>
 		<track>
-			<title>0059. Workshop 23</title>
+			<title>Workshop 23</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -829,9 +887,10 @@
 				<vlc:id>60</vlc:id>
 				<vlc:option>program=1221</vlc:option>
 			</extension>
+			<channel_number>823</channel_number>
 		</track>
 		<track>
-			<title>0060. News LOC 33N</title>
+			<title>News LOC 33N</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -843,9 +902,10 @@
 				<vlc:id>61</vlc:id>
 				<vlc:option>program=1222</vlc:option>
 			</extension>
+			<channel_number>830</channel_number>
 		</track>
 		<track>
-			<title>0061. Studio S43 </title>
+			<title>Studio S43 </title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -857,9 +917,10 @@
 				<vlc:id>62</vlc:id>
 				<vlc:option>program=1223</vlc:option>
 			</extension>
+			<channel_number>843</channel_number>
 		</track>
 		<track>
-			<title>0062. Studio S45 </title>
+			<title>Studio S45 </title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -871,9 +932,10 @@
 				<vlc:id>63</vlc:id>
 				<vlc:option>program=1224</vlc:option>
 			</extension>
+			<channel_number>845</channel_number>
 		</track>
 		<track>
-			<title>0063. Studio S47</title>
+			<title>Studio S47</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -885,9 +947,10 @@
 				<vlc:id>64</vlc:id>
 				<vlc:option>program=1225</vlc:option>
 			</extension>
+			<channel_number>847</channel_number>
 		</track>
 		<track>
-			<title>0064. WS Routable 1 </title>
+			<title>WS Routable 1 </title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -899,9 +962,10 @@
 				<vlc:id>65</vlc:id>
 				<vlc:option>program=1226</vlc:option>
 			</extension>
+			<channel_number>861</channel_number>
 		</track>
 		<track>
-			<title>0065. Film4</title>
+			<title>Film4</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -913,9 +977,10 @@
 				<vlc:id>66</vlc:id>
 				<vlc:option>program=8385</vlc:option>
 			</extension>
+			<channel_number>174</channel_number>
 		</track>
 		<track>
-			<title>0066. Rai News 24</title>
+			<title>Rai News 24</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -927,9 +992,10 @@
 				<vlc:id>67</vlc:id>
 				<vlc:option>program=8516</vlc:option>
 			</extension>
+			<channel_number>334</channel_number>
 		</track>
 		<track>
-			<title>0067. n-tv</title>
+			<title>n-tv</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -941,9 +1007,10 @@
 				<vlc:id>68</vlc:id>
 				<vlc:option>program=12090</vlc:option>
 			</extension>
+			<channel_number>355</channel_number>
 		</track>
 		<track>
-			<title>0068. TRT ETTURKIYYE</title>
+			<title>TRT ETTURKIYYE</title>
 			<location>dvb-t://frequency=506000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -955,9 +1022,10 @@
 				<vlc:id>69</vlc:id>
 				<vlc:option>program=24</vlc:option>
 			</extension>
+			<channel_number>372</channel_number>
 		</track>
 		<track>
-			<title>0069. Euronews</title>
+			<title>Euronews</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -969,9 +1037,10 @@
 				<vlc:id>70</vlc:id>
 				<vlc:option>program=8211</vlc:option>
 			</extension>
+			<channel_number>118</channel_number>
 		</track>
 		<track>
-			<title>0070. BBC World News</title>
+			<title>BBC World News</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -983,9 +1052,10 @@
 				<vlc:id>71</vlc:id>
 				<vlc:option>program=8204</vlc:option>
 			</extension>
+			<channel_number>112</channel_number>
 		</track>
 		<track>
-			<title>0071. Reuters</title>
+			<title>Reuters</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -997,9 +1067,10 @@
 				<vlc:id>72</vlc:id>
 				<vlc:option>program=2027</vlc:option>
 			</extension>
+			<channel_number>131</channel_number>
 		</track>
 		<track>
-			<title>0072. CCR Bookable 2</title>
+			<title>CCR Bookable 2</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1011,9 +1082,10 @@
 				<vlc:id>73</vlc:id>
 				<vlc:option>program=2208</vlc:option>
 			</extension>
+			<channel_number>202</channel_number>
 		</track>
 		<track>
-			<title>0073. CCR Bookable 4</title>
+			<title>CCR Bookable 4</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1025,9 +1097,10 @@
 				<vlc:id>74</vlc:id>
 				<vlc:option>program=2209</vlc:option>
 			</extension>
+			<channel_number>204</channel_number>
 		</track>
 		<track>
-			<title>0074. Studio S32</title>
+			<title>Studio S32</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1039,9 +1112,10 @@
 				<vlc:id>75</vlc:id>
 				<vlc:option>program=2211</vlc:option>
 			</extension>
+			<channel_number>832</channel_number>
 		</track>
 		<track>
-			<title>0075. Studio S34</title>
+			<title>Studio S34</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1053,9 +1127,10 @@
 				<vlc:id>76</vlc:id>
 				<vlc:option>program=2212</vlc:option>
 			</extension>
+			<channel_number>834</channel_number>
 		</track>
 		<track>
-			<title>0076. Workshop L2</title>
+			<title>Workshop L2</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1067,9 +1142,10 @@
 				<vlc:id>77</vlc:id>
 				<vlc:option>program=2213</vlc:option>
 			</extension>
+			<channel_number>812</channel_number>
 		</track>
 		<track>
-			<title>0077. Workshop L4</title>
+			<title>Workshop L4</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1081,9 +1157,10 @@
 				<vlc:id>78</vlc:id>
 				<vlc:option>program=2214</vlc:option>
 			</extension>
+			<channel_number>814</channel_number>
 		</track>
 		<track>
-			<title>0078. Workshop 22</title>
+			<title>Workshop 22</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1095,9 +1172,10 @@
 				<vlc:id>79</vlc:id>
 				<vlc:option>program=2215</vlc:option>
 			</extension>
+			<channel_number>822</channel_number>
 		</track>
 		<track>
-			<title>0079. Workshop 24</title>
+			<title>Workshop 24</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1109,9 +1187,10 @@
 				<vlc:id>80</vlc:id>
 				<vlc:option>program=2216</vlc:option>
 			</extension>
+			<channel_number>824</channel_number>
 		</track>
 		<track>
-			<title>0080. NewsBeat Workshop 2</title>
+			<title>NewsBeat Workshop 2</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1123,9 +1202,10 @@
 				<vlc:id>81</vlc:id>
 				<vlc:option>program=2217</vlc:option>
 			</extension>
+			<channel_number>872</channel_number>
 		</track>
 		<track>
-			<title>0081. NewsBeat Workshop OS1</title>
+			<title>NewsBeat Workshop OS1</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1137,9 +1217,10 @@
 				<vlc:id>82</vlc:id>
 				<vlc:option>program=2218</vlc:option>
 			</extension>
+			<channel_number>874</channel_number>
 		</track>
 		<track>
-			<title>0082. CNN Int.</title>
+			<title>CNN Int.</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1151,9 +1232,10 @@
 				<vlc:id>83</vlc:id>
 				<vlc:option>program=50220</vlc:option>
 			</extension>
+			<channel_number>114</channel_number>
 		</track>
 		<track>
-			<title>0083. Bloomberg</title>
+			<title>Bloomberg</title>
 			<location>dvb-t://frequency=514000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1165,9 +1247,10 @@
 				<vlc:id>84</vlc:id>
 				<vlc:option>program=52550</vlc:option>
 			</extension>
+			<channel_number>119</channel_number>
 		</track>
 		<track>
-			<title>0084. 2M Monde</title>
+			<title>2M Monde</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1179,9 +1262,10 @@
 				<vlc:id>85</vlc:id>
 				<vlc:option>program=1705</vlc:option>
 			</extension>
+			<channel_number>313</channel_number>
 		</track>
 		<track>
-			<title>0085. LBC Int (Lebanon)</title>
+			<title>LBC Int (Lebanon)</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1193,9 +1277,10 @@
 				<vlc:id>86</vlc:id>
 				<vlc:option>program=11206</vlc:option>
 			</extension>
+			<channel_number>306</channel_number>
 		</track>
 		<track>
-			<title>0086. Commons</title>
+			<title>Commons</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1207,9 +1292,10 @@
 				<vlc:id>87</vlc:id>
 				<vlc:option>program=1227</vlc:option>
 			</extension>
+			<channel_number>851</channel_number>
 		</track>
 		<track>
-			<title>0087. Traffic Line 1</title>
+			<title>Traffic Line 1</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1221,9 +1307,10 @@
 				<vlc:id>88</vlc:id>
 				<vlc:option>program=1228</vlc:option>
 			</extension>
+			<channel_number>801</channel_number>
 		</track>
 		<track>
-			<title>0088. Traffic Line 3 </title>
+			<title>Traffic Line 3 </title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1235,9 +1322,10 @@
 				<vlc:id>89</vlc:id>
 				<vlc:option>program=1229</vlc:option>
 			</extension>
+			<channel_number>803</channel_number>
 		</track>
 		<track>
-			<title>0089. Traffic Line 5</title>
+			<title>Traffic Line 5</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1249,9 +1337,10 @@
 				<vlc:id>90</vlc:id>
 				<vlc:option>program=1230</vlc:option>
 			</extension>
+			<channel_number>805</channel_number>
 		</track>
 		<track>
-			<title>0090. Traffic Line 7 </title>
+			<title>Traffic Line 7 </title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1263,9 +1352,10 @@
 				<vlc:id>91</vlc:id>
 				<vlc:option>program=1231</vlc:option>
 			</extension>
+			<channel_number>807</channel_number>
 		</track>
 		<track>
-			<title>0091. Traffic Line 9</title>
+			<title>Traffic Line 9</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1277,9 +1367,10 @@
 				<vlc:id>92</vlc:id>
 				<vlc:option>program=1232</vlc:option>
 			</extension>
+			<channel_number>809</channel_number>
 		</track>
 		<track>
-			<title>0092. NewsFlash</title>
+			<title>NewsFlash</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1291,9 +1382,10 @@
 				<vlc:id>93</vlc:id>
 				<vlc:option>program=1234</vlc:option>
 			</extension>
+			<channel_number>800</channel_number>
 		</track>
 		<track>
-			<title>0093. Workshop 33</title>
+			<title>Workshop 33</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1305,9 +1397,10 @@
 				<vlc:id>94</vlc:id>
 				<vlc:option>program=1235</vlc:option>
 			</extension>
+			<channel_number>827</channel_number>
 		</track>
 		<track>
-			<title>0094. WS Routable 3</title>
+			<title>WS Routable 3</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1319,9 +1412,10 @@
 				<vlc:id>95</vlc:id>
 				<vlc:option>program=1236</vlc:option>
 			</extension>
+			<channel_number>863</channel_number>
 		</track>
 		<track>
-			<title>0095. Future TV</title>
+			<title>Future TV</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1333,9 +1427,10 @@
 				<vlc:id>96</vlc:id>
 				<vlc:option>program=245</vlc:option>
 			</extension>
+			<channel_number>307</channel_number>
 		</track>
 		<track>
-			<title>0096. Dozhd TV</title>
+			<title>Dozhd TV</title>
 			<location>dvb-t://frequency=522000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1347,9 +1442,10 @@
 				<vlc:id>97</vlc:id>
 				<vlc:option>program=270</vlc:option>
 			</extension>
+			<channel_number>375</channel_number>
 		</track>
 		<track>
-			<title>0097. ABN TV</title>
+			<title>ABN TV</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1361,9 +1457,10 @@
 				<vlc:id>98</vlc:id>
 				<vlc:option>program=52111</vlc:option>
 			</extension>
+			<channel_number>308</channel_number>
 		</track>
 		<track>
-			<title>0098. US Nets</title>
+			<title>US Nets</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1375,9 +1472,10 @@
 				<vlc:id>99</vlc:id>
 				<vlc:option>program=2026</vlc:option>
 			</extension>
+			<channel_number>133</channel_number>
 		</track>
 		<track>
-			<title>0099. Rx Book 1</title>
+			<title>Rx Book 1</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1389,9 +1487,10 @@
 				<vlc:id>100</vlc:id>
 				<vlc:option>program=2054</vlc:option>
 			</extension>
+			<channel_number>211</channel_number>
 		</track>
 		<track>
-			<title>0100. Rx Book 2</title>
+			<title>Rx Book 2</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1403,9 +1502,10 @@
 				<vlc:id>101</vlc:id>
 				<vlc:option>program=2055</vlc:option>
 			</extension>
+			<channel_number>212</channel_number>
 		</track>
 		<track>
-			<title>0101. Studio S42</title>
+			<title>Studio S42</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1417,9 +1517,10 @@
 				<vlc:id>102</vlc:id>
 				<vlc:option>program=2221</vlc:option>
 			</extension>
+			<channel_number>842</channel_number>
 		</track>
 		<track>
-			<title>0102. Studio S44</title>
+			<title>Studio S44</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1431,9 +1532,10 @@
 				<vlc:id>103</vlc:id>
 				<vlc:option>program=2222</vlc:option>
 			</extension>
+			<channel_number>844</channel_number>
 		</track>
 		<track>
-			<title>0103. Studio S46</title>
+			<title>Studio S46</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1445,9 +1547,10 @@
 				<vlc:id>104</vlc:id>
 				<vlc:option>program=2223</vlc:option>
 			</extension>
+			<channel_number>846</channel_number>
 		</track>
 		<track>
-			<title>0104. Studio S48</title>
+			<title>Studio S48</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1459,9 +1562,10 @@
 				<vlc:id>105</vlc:id>
 				<vlc:option>program=2224</vlc:option>
 			</extension>
+			<channel_number>848</channel_number>
 		</track>
 		<track>
-			<title>0105. WS Routable 2</title>
+			<title>WS Routable 2</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1473,9 +1577,10 @@
 				<vlc:id>106</vlc:id>
 				<vlc:option>program=2225</vlc:option>
 			</extension>
+			<channel_number>862</channel_number>
 		</track>
 		<track>
-			<title>0106. WS Routable 4</title>
+			<title>WS Routable 4</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1487,9 +1592,10 @@
 				<vlc:id>107</vlc:id>
 				<vlc:option>program=2226</vlc:option>
 			</extension>
+			<channel_number>864</channel_number>
 		</track>
 		<track>
-			<title>0107. Lords</title>
+			<title>Lords</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1501,9 +1607,10 @@
 				<vlc:id>108</vlc:id>
 				<vlc:option>program=2227</vlc:option>
 			</extension>
+			<channel_number>852</channel_number>
 		</track>
 		<track>
-			<title>0108. Traffic Line 4</title>
+			<title>Traffic Line 4</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1515,9 +1622,10 @@
 				<vlc:id>109</vlc:id>
 				<vlc:option>program=2229</vlc:option>
 			</extension>
+			<channel_number>804</channel_number>
 		</track>
 		<track>
-			<title>0109. Traffic Line 6</title>
+			<title>Traffic Line 6</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1529,9 +1637,10 @@
 				<vlc:id>110</vlc:id>
 				<vlc:option>program=2230</vlc:option>
 			</extension>
+			<channel_number>806</channel_number>
 		</track>
 		<track>
-			<title>0110. Traffic Line 8</title>
+			<title>Traffic Line 8</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1543,9 +1652,10 @@
 				<vlc:id>111</vlc:id>
 				<vlc:option>program=2231</vlc:option>
 			</extension>
+			<channel_number>808</channel_number>
 		</track>
 		<track>
-			<title>0111. Workshop 34</title>
+			<title>Workshop 34</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1557,9 +1667,10 @@
 				<vlc:id>112</vlc:id>
 				<vlc:option>program=2220</vlc:option>
 			</extension>
+			<channel_number>828</channel_number>
 		</track>
 		<track>
-			<title>0112. Workshop 32</title>
+			<title>Workshop 32</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1571,9 +1682,10 @@
 				<vlc:id>113</vlc:id>
 				<vlc:option>program=2219</vlc:option>
 			</extension>
+			<channel_number>826</channel_number>
 		</track>
 		<track>
-			<title>0113. Traffic Line 10</title>
+			<title>Traffic Line 10</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1585,9 +1697,10 @@
 				<vlc:id>114</vlc:id>
 				<vlc:option>program=2232</vlc:option>
 			</extension>
+			<channel_number>810</channel_number>
 		</track>
 		<track>
-			<title>0114. Traffic Line 2</title>
+			<title>Traffic Line 2</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1599,9 +1712,10 @@
 				<vlc:id>115</vlc:id>
 				<vlc:option>program=2228</vlc:option>
 			</extension>
+			<channel_number>802</channel_number>
 		</track>
 		<track>
-			<title>0115. MCR Test Encoder</title>
+			<title>MCR Test Encoder</title>
 			<location>dvb-t://frequency=530000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1613,9 +1727,10 @@
 				<vlc:id>116</vlc:id>
 				<vlc:option>program=139</vlc:option>
 			</extension>
+			<channel_number>240</channel_number>
 		</track>
 		<track>
-			<title>0116. BBC English (E Af.)</title>
+			<title>BBC English (E Af.)</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1627,9 +1742,10 @@
 				<vlc:id>117</vlc:id>
 				<vlc:option>program=13901</vlc:option>
 			</extension>
+			<channel_number>901</channel_number>
 		</track>
 		<track>
-			<title>0117. BBC English (Amer.)</title>
+			<title>BBC English (Amer.)</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1641,9 +1757,10 @@
 				<vlc:id>118</vlc:id>
 				<vlc:option>program=13903</vlc:option>
 			</extension>
+			<channel_number>903</channel_number>
 		</track>
 		<track>
-			<title>0118. BBC English (S Asia)</title>
+			<title>BBC English (S Asia)</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1655,9 +1772,10 @@
 				<vlc:id>119</vlc:id>
 				<vlc:option>program=13905</vlc:option>
 			</extension>
+			<channel_number>905</channel_number>
 		</track>
 		<track>
-			<title>0119. BBC English (Europe)</title>
+			<title>BBC English (Europe)</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1669,9 +1787,10 @@
 				<vlc:id>120</vlc:id>
 				<vlc:option>program=13907</vlc:option>
 			</extension>
+			<channel_number>907</channel_number>
 		</track>
 		<track>
-			<title>0120. BBC English Aus NZ</title>
+			<title>BBC English Aus NZ</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1683,9 +1802,10 @@
 				<vlc:id>121</vlc:id>
 				<vlc:option>program=13909</vlc:option>
 			</extension>
+			<channel_number>909</channel_number>
 		</track>
 		<track>
-			<title>0121. BBC Farsi</title>
+			<title>BBC Farsi</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1697,9 +1817,10 @@
 				<vlc:id>122</vlc:id>
 				<vlc:option>program=13929</vlc:option>
 			</extension>
+			<channel_number>911</channel_number>
 		</track>
 		<track>
-			<title>0122. BBC Arabic</title>
+			<title>BBC Arabic</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1711,9 +1832,10 @@
 				<vlc:id>123</vlc:id>
 				<vlc:option>program=13916</vlc:option>
 			</extension>
+			<channel_number>913</channel_number>
 		</track>
 		<track>
-			<title>0123. BBC Amer Feed 4</title>
+			<title>BBC Amer Feed 4</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1725,9 +1847,10 @@
 				<vlc:id>124</vlc:id>
 				<vlc:option>program=13998</vlc:option>
 			</extension>
+			<channel_number>915</channel_number>
 		</track>
 		<track>
-			<title>0124. Studio C OS Multi</title>
+			<title>Studio C OS Multi</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1739,9 +1862,10 @@
 				<vlc:id>125</vlc:id>
 				<vlc:option>program=1060</vlc:option>
 			</extension>
+			<channel_number>493</channel_number>
 		</track>
 		<track>
-			<title>0125. Studio E OS Multi</title>
+			<title>Studio E OS Multi</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1753,9 +1877,10 @@
 				<vlc:id>126</vlc:id>
 				<vlc:option>program=1064</vlc:option>
 			</extension>
+			<channel_number>495</channel_number>
 		</track>
 		<track>
-			<title>0126. WS TV Quad 1</title>
+			<title>WS TV Quad 1</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1767,9 +1892,10 @@
 				<vlc:id>127</vlc:id>
 				<vlc:option>program=193</vlc:option>
 			</extension>
+			<channel_number>221</channel_number>
 		</track>
 		<track>
-			<title>0127. WS TV Quad 3</title>
+			<title>WS TV Quad 3</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1781,9 +1907,10 @@
 				<vlc:id>128</vlc:id>
 				<vlc:option>program=195</vlc:option>
 			</extension>
+			<channel_number>223</channel_number>
 		</track>
 		<track>
-			<title>0128. Dehli 6</title>
+			<title>Dehli 6</title>
 			<location>dvb-t://frequency=538000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1795,9 +1922,10 @@
 				<vlc:id>129</vlc:id>
 				<vlc:option>program=197</vlc:option>
 			</extension>
+			<channel_number>225</channel_number>
 		</track>
 		<track>
-			<title>0129. AL Arabia HD</title>
+			<title>AL Arabia HD</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1809,9 +1937,10 @@
 				<vlc:id>130</vlc:id>
 				<vlc:option>program=9513</vlc:option>
 			</extension>
+			<channel_number>302</channel_number>
 		</track>
 		<track>
-			<title>0130. Rx Book 3</title>
+			<title>Rx Book 3</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1823,9 +1952,10 @@
 				<vlc:id>131</vlc:id>
 				<vlc:option>program=2056</vlc:option>
 			</extension>
+			<channel_number>216</channel_number>
 		</track>
 		<track>
-			<title>0131. BBC English (W Af.)</title>
+			<title>BBC English (W Af.)</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1837,9 +1967,10 @@
 				<vlc:id>132</vlc:id>
 				<vlc:option>program=13902</vlc:option>
 			</extension>
+			<channel_number>902</channel_number>
 		</track>
 		<track>
-			<title>0132. BBC English (E Asia)</title>
+			<title>BBC English (E Asia)</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1851,9 +1982,10 @@
 				<vlc:id>133</vlc:id>
 				<vlc:option>program=13904</vlc:option>
 			</extension>
+			<channel_number>904</channel_number>
 		</track>
 		<track>
-			<title>0133. BBC English News</title>
+			<title>BBC English News</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1865,9 +1997,10 @@
 				<vlc:id>134</vlc:id>
 				<vlc:option>program=13910</vlc:option>
 			</extension>
+			<channel_number>910</channel_number>
 		</track>
 		<track>
-			<title>0134. BBC English_NR</title>
+			<title>BBC English_NR</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1879,9 +2012,10 @@
 				<vlc:id>135</vlc:id>
 				<vlc:option>program=13913</vlc:option>
 			</extension>
+			<channel_number>912</channel_number>
 		</track>
 		<track>
-			<title>0135. BBC Amer Feed 3</title>
+			<title>BBC Amer Feed 3</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1893,9 +2027,10 @@
 				<vlc:id>136</vlc:id>
 				<vlc:option>program=13997</vlc:option>
 			</extension>
+			<channel_number>914</channel_number>
 		</track>
 		<track>
-			<title>0136. BBC Bengali</title>
+			<title>BBC Bengali</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1907,9 +2042,10 @@
 				<vlc:id>137</vlc:id>
 				<vlc:option>program=13924</vlc:option>
 			</extension>
+			<channel_number>918</channel_number>
 		</track>
 		<track>
-			<title>0137. BBC Burmese</title>
+			<title>BBC Burmese</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1921,9 +2057,10 @@
 				<vlc:id>138</vlc:id>
 				<vlc:option>program=13926</vlc:option>
 			</extension>
+			<channel_number>920</channel_number>
 		</track>
 		<track>
-			<title>0138. BBC French (Africa)</title>
+			<title>BBC French (Africa)</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1935,9 +2072,10 @@
 				<vlc:id>139</vlc:id>
 				<vlc:option>program=13930</vlc:option>
 			</extension>
+			<channel_number>922</channel_number>
 		</track>
 		<track>
-			<title>0139. CAV 506</title>
+			<title>CAV 506</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1949,9 +2087,10 @@
 				<vlc:id>140</vlc:id>
 				<vlc:option>program=2058</vlc:option>
 			</extension>
+			<channel_number>672</channel_number>
 		</track>
 		<track>
-			<title>0140. BBC Arabic TV</title>
+			<title>BBC Arabic TV</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1963,9 +2102,10 @@
 				<vlc:id>141</vlc:id>
 				<vlc:option>program=13919</vlc:option>
 			</extension>
+			<channel_number>301</channel_number>
 		</track>
 		<track>
-			<title>0141. BBC English (Mid East)</title>
+			<title>BBC English (Mid East)</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1977,9 +2117,10 @@
 				<vlc:id>142</vlc:id>
 				<vlc:option>program=13908</vlc:option>
 			</extension>
+			<channel_number>908</channel_number>
 		</track>
 		<track>
-			<title>0142. TELESUR</title>
+			<title>TELESUR</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -1991,9 +2132,10 @@
 				<vlc:id>143</vlc:id>
 				<vlc:option>program=13737</vlc:option>
 			</extension>
+			<channel_number>396</channel_number>
 		</track>
 		<track>
-			<title>0143. ERI TV</title>
+			<title>ERI TV</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2005,9 +2147,10 @@
 				<vlc:id>144</vlc:id>
 				<vlc:option>program=3010</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0144. Channel 4+1</title>
+			<title>Channel 4+1</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2019,9 +2162,10 @@
 				<vlc:id>145</vlc:id>
 				<vlc:option>program=5463</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0145. Channel Off Air</title>
+			<title>Channel Off Air</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2033,9 +2177,10 @@
 				<vlc:id>146</vlc:id>
 				<vlc:option>program=5461</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0146. ITV3</title>
+			<title>ITV3</title>
 			<location>dvb-t://frequency=546000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2047,9 +2192,10 @@
 				<vlc:id>147</vlc:id>
 				<vlc:option>program=5465</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0147. BBC Dari</title>
+			<title>BBC Dari</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2061,9 +2207,10 @@
 				<vlc:id>148</vlc:id>
 				<vlc:option>program=13928</vlc:option>
 			</extension>
+			<channel_number>921</channel_number>
 		</track>
 		<track>
-			<title>0148. BBC Hausa</title>
+			<title>BBC Hausa</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2075,9 +2222,10 @@
 				<vlc:id>149</vlc:id>
 				<vlc:option>program=13932</vlc:option>
 			</extension>
+			<channel_number>923</channel_number>
 		</track>
 		<track>
-			<title>0149. BBC Indonesian</title>
+			<title>BBC Indonesian</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2089,9 +2237,10 @@
 				<vlc:id>150</vlc:id>
 				<vlc:option>program=13934</vlc:option>
 			</extension>
+			<channel_number>925</channel_number>
 		</track>
 		<track>
-			<title>0150. BBC Afghan</title>
+			<title>BBC Afghan</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2103,9 +2252,10 @@
 				<vlc:id>151</vlc:id>
 				<vlc:option>program=13943</vlc:option>
 			</extension>
+			<channel_number>929</channel_number>
 		</track>
 		<track>
-			<title>0151. BBC Nepali</title>
+			<title>BBC Nepali</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2117,9 +2267,10 @@
 				<vlc:id>152</vlc:id>
 				<vlc:option>program=13941</vlc:option>
 			</extension>
+			<channel_number>927</channel_number>
 		</track>
 		<track>
-			<title>0152. BBC Tamil</title>
+			<title>BBC Tamil</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2131,9 +2282,10 @@
 				<vlc:id>153</vlc:id>
 				<vlc:option>program=13962</vlc:option>
 			</extension>
+			<channel_number>933</channel_number>
 		</track>
 		<track>
-			<title>0153. Al Jazeera</title>
+			<title>Al Jazeera</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2145,9 +2297,10 @@
 				<vlc:id>154</vlc:id>
 				<vlc:option>program=1820</vlc:option>
 			</extension>
+			<channel_number>309</channel_number>
 		</track>
 		<track>
-			<title>0154. Edit Suite 2A</title>
+			<title>Edit Suite 2A</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2159,9 +2312,10 @@
 				<vlc:id>155</vlc:id>
 				<vlc:option>program=3066</vlc:option>
 			</extension>
+			<channel_number>521</channel_number>
 		</track>
 		<track>
-			<title>0155. CGTN</title>
+			<title>CGTN</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2173,9 +2327,10 @@
 				<vlc:id>156</vlc:id>
 				<vlc:option>program=54216</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0156. CANAL 24 HORAS</title>
+			<title>CANAL 24 HORAS</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2187,9 +2342,10 @@
 				<vlc:id>157</vlc:id>
 				<vlc:option>program=4402</vlc:option>
 			</extension>
+			<channel_number>381</channel_number>
 		</track>
 		<track>
-			<title>0157. TVE INTERNACIONAL EUROPA</title>
+			<title>TVE INTERNACIONAL EUROPA</title>
 			<location>dvb-t://frequency=554000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2201,9 +2357,10 @@
 				<vlc:id>158</vlc:id>
 				<vlc:option>program=4501</vlc:option>
 			</extension>
+			<channel_number>380</channel_number>
 		</track>
 		<track>
-			<title>0158. Al EKhbaria</title>
+			<title>Al EKhbaria</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2215,9 +2372,10 @@
 				<vlc:id>159</vlc:id>
 				<vlc:option>program=2604</vlc:option>
 			</extension>
+			<channel_number>311</channel_number>
 		</track>
 		<track>
-			<title>0159. Qatar TV</title>
+			<title>Qatar TV</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2229,9 +2387,10 @@
 				<vlc:id>160</vlc:id>
 				<vlc:option>program=5002</vlc:option>
 			</extension>
+			<channel_number>310</channel_number>
 		</track>
 		<track>
-			<title>0160. Saudi 1</title>
+			<title>Saudi 1</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2243,9 +2402,10 @@
 				<vlc:id>161</vlc:id>
 				<vlc:option>program=104</vlc:option>
 			</extension>
+			<channel_number>312</channel_number>
 		</track>
 		<track>
-			<title>0161. Medi1SAT</title>
+			<title>Medi1SAT</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2257,9 +2417,10 @@
 				<vlc:id>162</vlc:id>
 				<vlc:option>program=8</vlc:option>
 			</extension>
+			<channel_number>314</channel_number>
 		</track>
 		<track>
-			<title>0162. BBC Hindi</title>
+			<title>BBC Hindi</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2271,9 +2432,10 @@
 				<vlc:id>163</vlc:id>
 				<vlc:option>program=13933</vlc:option>
 			</extension>
+			<channel_number>924</channel_number>
 		</track>
 		<track>
-			<title>0163. BBC Kirghiz</title>
+			<title>BBC Kirghiz</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2285,9 +2447,10 @@
 				<vlc:id>164</vlc:id>
 				<vlc:option>program=13936</vlc:option>
 			</extension>
+			<channel_number>926</channel_number>
 		</track>
 		<track>
-			<title>0164. BBC Pashto</title>
+			<title>BBC Pashto</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2299,9 +2462,10 @@
 				<vlc:id>165</vlc:id>
 				<vlc:option>program=13942</vlc:option>
 			</extension>
+			<channel_number>928</channel_number>
 		</track>
 		<track>
-			<title>0165. BBC Tajik</title>
+			<title>BBC Tajik</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2313,9 +2477,10 @@
 				<vlc:id>166</vlc:id>
 				<vlc:option>program=13961</vlc:option>
 			</extension>
+			<channel_number>938</channel_number>
 		</track>
 		<track>
-			<title>0166. BBC Uzbek</title>
+			<title>BBC Uzbek</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2327,9 +2492,10 @@
 				<vlc:id>167</vlc:id>
 				<vlc:option>program=13968</vlc:option>
 			</extension>
+			<channel_number>942</channel_number>
 		</track>
 		<track>
-			<title>0167. BBC Great Lakes</title>
+			<title>BBC Great Lakes</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2341,9 +2507,10 @@
 				<vlc:id>168</vlc:id>
 				<vlc:option>program=13931</vlc:option>
 			</extension>
+			<channel_number>930</channel_number>
 		</track>
 		<track>
-			<title>0168. BBC Sinhala</title>
+			<title>BBC Sinhala</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2355,9 +2522,10 @@
 				<vlc:id>169</vlc:id>
 				<vlc:option>program=13954</vlc:option>
 			</extension>
+			<channel_number>934</channel_number>
 		</track>
 		<track>
-			<title>0169. BBC China</title>
+			<title>BBC China</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2369,9 +2537,10 @@
 				<vlc:id>170</vlc:id>
 				<vlc:option>program=2204</vlc:option>
 			</extension>
+			<channel_number>939</channel_number>
 		</track>
 		<track>
-			<title>0170. Sky News Arabia</title>
+			<title>Sky News Arabia</title>
 			<location>dvb-t://frequency=562000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2383,9 +2552,10 @@
 				<vlc:id>171</vlc:id>
 				<vlc:option>program=25</vlc:option>
 			</extension>
+			<channel_number>338</channel_number>
 		</track>
 		<track>
-			<title>0171. IRINN</title>
+			<title>IRINN</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2397,9 +2567,10 @@
 				<vlc:id>172</vlc:id>
 				<vlc:option>program=7905</vlc:option>
 			</extension>
+			<channel_number>353</channel_number>
 		</track>
 		<track>
-			<title>0172. BBC Somali</title>
+			<title>BBC Somali</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2411,9 +2582,10 @@
 				<vlc:id>173</vlc:id>
 				<vlc:option>program=13955</vlc:option>
 			</extension>
+			<channel_number>935</channel_number>
 		</track>
 		<track>
-			<title>0173. BBC Swahili</title>
+			<title>BBC Swahili</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2425,9 +2597,10 @@
 				<vlc:id>174</vlc:id>
 				<vlc:option>program=13960</vlc:option>
 			</extension>
+			<channel_number>937</channel_number>
 		</track>
 		<track>
-			<title>0174. BBC Urdu</title>
+			<title>BBC Urdu</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2439,9 +2612,10 @@
 				<vlc:id>175</vlc:id>
 				<vlc:option>program=13967</vlc:option>
 			</extension>
+			<channel_number>941</channel_number>
 		</track>
 		<track>
-			<title>0175. BBC Eur Feed 2</title>
+			<title>BBC Eur Feed 2</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2453,9 +2627,10 @@
 				<vlc:id>176</vlc:id>
 				<vlc:option>program=13972</vlc:option>
 			</extension>
+			<channel_number>945</channel_number>
 		</track>
 		<track>
-			<title>0176. BBC Eur Feed 4</title>
+			<title>BBC Eur Feed 4</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2467,9 +2642,10 @@
 				<vlc:id>177</vlc:id>
 				<vlc:option>program=13974</vlc:option>
 			</extension>
+			<channel_number>947</channel_number>
 		</track>
 		<track>
-			<title>0177. BBC Eur Feed 6</title>
+			<title>BBC Eur Feed 6</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2481,9 +2657,10 @@
 				<vlc:id>178</vlc:id>
 				<vlc:option>program=13976</vlc:option>
 			</extension>
+			<channel_number>949</channel_number>
 		</track>
 		<track>
-			<title>0178. BBC Asia Feed 2</title>
+			<title>BBC Asia Feed 2</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2495,9 +2672,10 @@
 				<vlc:id>179</vlc:id>
 				<vlc:option>program=13978</vlc:option>
 			</extension>
+			<channel_number>951</channel_number>
 		</track>
 		<track>
-			<title>0179. OnDemand Quad</title>
+			<title>OnDemand Quad</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2509,9 +2687,10 @@
 				<vlc:id>180</vlc:id>
 				<vlc:option>program=1069</vlc:option>
 			</extension>
+			<channel_number>550</channel_number>
 		</track>
 		<track>
-			<title>0180. News Package 60</title>
+			<title>News Package 60</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2523,9 +2702,10 @@
 				<vlc:id>181</vlc:id>
 				<vlc:option>program=1103</vlc:option>
 			</extension>
+			<channel_number>660</channel_number>
 		</track>
 		<track>
-			<title>0181. Mill 5 (TX)</title>
+			<title>Mill 5 (TX)</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2537,9 +2717,10 @@
 				<vlc:id>182</vlc:id>
 				<vlc:option>program=1063</vlc:option>
 			</extension>
+			<channel_number>662</channel_number>
 		</track>
 		<track>
-			<title>0182. Langham Cam</title>
+			<title>Langham Cam</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2551,9 +2732,10 @@
 				<vlc:id>183</vlc:id>
 				<vlc:option>program=1074</vlc:option>
 			</extension>
+			<channel_number>470</channel_number>
 		</track>
 		<track>
-			<title>0183. PRESS TV HD</title>
+			<title>PRESS TV HD</title>
 			<location>dvb-t://frequency=570000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2565,9 +2747,10 @@
 				<vlc:id>184</vlc:id>
 				<vlc:option>program=7944</vlc:option>
 			</extension>
+			<channel_number>354</channel_number>
 		</track>
 		<track>
-			<title>0184. Al Hurra</title>
+			<title>Al Hurra</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2579,9 +2762,10 @@
 				<vlc:id>185</vlc:id>
 				<vlc:option>program=28</vlc:option>
 			</extension>
+			<channel_number>316</channel_number>
 		</track>
 		<track>
-			<title>0185. Tunisia 1</title>
+			<title>Tunisia 1</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2593,9 +2777,10 @@
 				<vlc:id>186</vlc:id>
 				<vlc:option>program=7202</vlc:option>
 			</extension>
+			<channel_number>320</channel_number>
 		</track>
 		<track>
-			<title>0186. BBC Eur Feed 1</title>
+			<title>BBC Eur Feed 1</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2607,9 +2792,10 @@
 				<vlc:id>187</vlc:id>
 				<vlc:option>program=13971</vlc:option>
 			</extension>
+			<channel_number>944</channel_number>
 		</track>
 		<track>
-			<title>0187. BBC Eur Feed 3</title>
+			<title>BBC Eur Feed 3</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2621,9 +2807,10 @@
 				<vlc:id>188</vlc:id>
 				<vlc:option>program=13973</vlc:option>
 			</extension>
+			<channel_number>946</channel_number>
 		</track>
 		<track>
-			<title>0188. BBC Eur Feed 5</title>
+			<title>BBC Eur Feed 5</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2635,9 +2822,10 @@
 				<vlc:id>189</vlc:id>
 				<vlc:option>program=13975</vlc:option>
 			</extension>
+			<channel_number>948</channel_number>
 		</track>
 		<track>
-			<title>0189. BBC Asia Feed 1</title>
+			<title>BBC Asia Feed 1</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2649,9 +2837,10 @@
 				<vlc:id>190</vlc:id>
 				<vlc:option>program=13977</vlc:option>
 			</extension>
+			<channel_number>950</channel_number>
 		</track>
 		<track>
-			<title>0190. BBC Asia Feed 3</title>
+			<title>BBC Asia Feed 3</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2663,9 +2852,10 @@
 				<vlc:id>191</vlc:id>
 				<vlc:option>program=13979</vlc:option>
 			</extension>
+			<channel_number>952</channel_number>
 		</track>
 		<track>
-			<title>0191. BBC Asia Feed 5</title>
+			<title>BBC Asia Feed 5</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2677,9 +2867,10 @@
 				<vlc:id>192</vlc:id>
 				<vlc:option>program=13981</vlc:option>
 			</extension>
+			<channel_number>954</channel_number>
 		</track>
 		<track>
-			<title>0192. BBC Afr Feed 1</title>
+			<title>BBC Afr Feed 1</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2691,9 +2882,10 @@
 				<vlc:id>193</vlc:id>
 				<vlc:option>program=13983</vlc:option>
 			</extension>
+			<channel_number>956</channel_number>
 		</track>
 		<track>
-			<title>0193. BBC Afr Feed 3</title>
+			<title>BBC Afr Feed 3</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2705,9 +2897,10 @@
 				<vlc:id>194</vlc:id>
 				<vlc:option>program=13985</vlc:option>
 			</extension>
+			<channel_number>958</channel_number>
 		</track>
 		<track>
-			<title>0194. BBC Afr Feed 5</title>
+			<title>BBC Afr Feed 5</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2719,9 +2912,10 @@
 				<vlc:id>195</vlc:id>
 				<vlc:option>program=13987</vlc:option>
 			</extension>
+			<channel_number>960</channel_number>
 		</track>
 		<track>
-			<title>0195. BBC Afr Feed 7</title>
+			<title>BBC Afr Feed 7</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2733,9 +2927,10 @@
 				<vlc:id>196</vlc:id>
 				<vlc:option>program=13989</vlc:option>
 			</extension>
+			<channel_number>962</channel_number>
 		</track>
 		<track>
-			<title>0196. Al Aoula</title>
+			<title>Al Aoula</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2747,9 +2942,10 @@
 				<vlc:id>197</vlc:id>
 				<vlc:option>program=5</vlc:option>
 			</extension>
+			<channel_number>315</channel_number>
 		</track>
 		<track>
-			<title>0197. Iraqia News</title>
+			<title>Iraqia News</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2761,9 +2957,10 @@
 				<vlc:id>198</vlc:id>
 				<vlc:option>program=9</vlc:option>
 			</extension>
+			<channel_number>317</channel_number>
 		</track>
 		<track>
-			<title>0198. AL SHARQIYA NEWS</title>
+			<title>AL SHARQIYA NEWS</title>
 			<location>dvb-t://frequency=578000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2775,9 +2972,10 @@
 				<vlc:id>199</vlc:id>
 				<vlc:option>program=5003</vlc:option>
 			</extension>
+			<channel_number>318</channel_number>
 		</track>
 		<track>
-			<title>0199. IRIB 1 (Line Feed)</title>
+			<title>IRIB 1 (Line Feed)</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2789,9 +2987,10 @@
 				<vlc:id>200</vlc:id>
 				<vlc:option>program=1028</vlc:option>
 			</extension>
+			<channel_number>358</channel_number>
 		</track>
 		<track>
-			<title>0200. BBC Asia Feed 4</title>
+			<title>BBC Asia Feed 4</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2803,9 +3002,10 @@
 				<vlc:id>201</vlc:id>
 				<vlc:option>program=13980</vlc:option>
 			</extension>
+			<channel_number>953</channel_number>
 		</track>
 		<track>
-			<title>0201. BBC Asia Feed 6</title>
+			<title>BBC Asia Feed 6</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2817,9 +3017,10 @@
 				<vlc:id>202</vlc:id>
 				<vlc:option>program=13982</vlc:option>
 			</extension>
+			<channel_number>955</channel_number>
 		</track>
 		<track>
-			<title>0202. BBC Afr Feed 2</title>
+			<title>BBC Afr Feed 2</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2831,9 +3032,10 @@
 				<vlc:id>203</vlc:id>
 				<vlc:option>program=13984</vlc:option>
 			</extension>
+			<channel_number>957</channel_number>
 		</track>
 		<track>
-			<title>0203. BBC Afr Feed 4</title>
+			<title>BBC Afr Feed 4</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2845,9 +3047,10 @@
 				<vlc:id>204</vlc:id>
 				<vlc:option>program=13986</vlc:option>
 			</extension>
+			<channel_number>959</channel_number>
 		</track>
 		<track>
-			<title>0204. BBC Afr Feed 6</title>
+			<title>BBC Afr Feed 6</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2859,9 +3062,10 @@
 				<vlc:id>205</vlc:id>
 				<vlc:option>program=13988</vlc:option>
 			</extension>
+			<channel_number>961</channel_number>
 		</track>
 		<track>
-			<title>0205. BBC Afr Feed 8</title>
+			<title>BBC Afr Feed 8</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2873,9 +3077,10 @@
 				<vlc:id>206</vlc:id>
 				<vlc:option>program=13990</vlc:option>
 			</extension>
+			<channel_number>963</channel_number>
 		</track>
 		<track>
-			<title>0206. BBC Pac Feed 2</title>
+			<title>BBC Pac Feed 2</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2887,9 +3092,10 @@
 				<vlc:id>207</vlc:id>
 				<vlc:option>program=13992</vlc:option>
 			</extension>
+			<channel_number>965</channel_number>
 		</track>
 		<track>
-			<title>0207. BBC Pac Feed 4</title>
+			<title>BBC Pac Feed 4</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2901,9 +3107,10 @@
 				<vlc:id>208</vlc:id>
 				<vlc:option>program=13994</vlc:option>
 			</extension>
+			<channel_number>967</channel_number>
 		</track>
 		<track>
-			<title>0208. BBC Amer Feed 2</title>
+			<title>BBC Amer Feed 2</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2915,9 +3122,10 @@
 				<vlc:id>209</vlc:id>
 				<vlc:option>program=13996</vlc:option>
 			</extension>
+			<channel_number>969</channel_number>
 		</track>
 		<track>
-			<title>0209. BBC NEWS HD</title>
+			<title>BBC NEWS HD</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2929,9 +3137,10 @@
 				<vlc:id>210</vlc:id>
 				<vlc:option>program=8921</vlc:option>
 			</extension>
+			<channel_number>195</channel_number>
 		</track>
 		<track>
-			<title>0210. CANAL ALGERIE</title>
+			<title>CANAL ALGERIE</title>
 			<location>dvb-t://frequency=586000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2943,9 +3152,10 @@
 				<vlc:id>211</vlc:id>
 				<vlc:option>program=13950</vlc:option>
 			</extension>
+			<channel_number>322</channel_number>
 		</track>
 		<track>
-			<title>0211. ESC</title>
+			<title>ESC</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2957,9 +3167,10 @@
 				<vlc:id>212</vlc:id>
 				<vlc:option>program=5008</vlc:option>
 			</extension>
+			<channel_number>323</channel_number>
 		</track>
 		<track>
-			<title>0212. Kuwait Space Channel</title>
+			<title>Kuwait Space Channel</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2971,9 +3182,10 @@
 				<vlc:id>213</vlc:id>
 				<vlc:option>program=4</vlc:option>
 			</extension>
+			<channel_number>327</channel_number>
 		</track>
 		<track>
-			<title>0213. BBC Pac Feed 1</title>
+			<title>BBC Pac Feed 1</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2985,9 +3197,10 @@
 				<vlc:id>214</vlc:id>
 				<vlc:option>program=13991</vlc:option>
 			</extension>
+			<channel_number>964</channel_number>
 		</track>
 		<track>
-			<title>0214. BBC Pac Feed 3</title>
+			<title>BBC Pac Feed 3</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -2999,9 +3212,10 @@
 				<vlc:id>215</vlc:id>
 				<vlc:option>program=13993</vlc:option>
 			</extension>
+			<channel_number>966</channel_number>
 		</track>
 		<track>
-			<title>0215. BBC Amer Feed 1</title>
+			<title>BBC Amer Feed 1</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3013,9 +3227,10 @@
 				<vlc:id>216</vlc:id>
 				<vlc:option>program=13995</vlc:option>
 			</extension>
+			<channel_number>968</channel_number>
 		</track>
 		<track>
-			<title>0216. Dubai TV</title>
+			<title>Dubai TV</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3027,9 +3242,10 @@
 				<vlc:id>217</vlc:id>
 				<vlc:option>program=9501</vlc:option>
 			</extension>
+			<channel_number>336</channel_number>
 		</track>
 		<track>
-			<title>0217. Sudan TV</title>
+			<title>Sudan TV</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3041,9 +3257,10 @@
 				<vlc:id>218</vlc:id>
 				<vlc:option>program=6</vlc:option>
 			</extension>
+			<channel_number>330</channel_number>
 		</track>
 		<track>
-			<title>0218. Studio A OS Multi</title>
+			<title>Studio A OS Multi</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3055,9 +3272,10 @@
 				<vlc:id>219</vlc:id>
 				<vlc:option>program=2064</vlc:option>
 			</extension>
+			<channel_number>491</channel_number>
 		</track>
 		<track>
-			<title>0219. BBC FOUR+15</title>
+			<title>BBC FOUR+15</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3069,9 +3287,10 @@
 				<vlc:id>220</vlc:id>
 				<vlc:option>program=14544</vlc:option>
 			</extension>
+			<channel_number>154</channel_number>
 		</track>
 		<track>
-			<title>0220. BBC World News</title>
+			<title>BBC World News</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3083,9 +3302,10 @@
 				<vlc:id>221</vlc:id>
 				<vlc:option>program=5462</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0221. Euronews</title>
+			<title>Euronews</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3097,9 +3317,10 @@
 				<vlc:id>222</vlc:id>
 				<vlc:option>program=5464</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0222. CNN Int.</title>
+			<title>CNN Int.</title>
 			<location>dvb-t://frequency=594000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3111,9 +3332,10 @@
 				<vlc:id>223</vlc:id>
 				<vlc:option>program=5466</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0223. ROSSIYA24</title>
+			<title>ROSSIYA24</title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3125,9 +3347,10 @@
 				<vlc:id>224</vlc:id>
 				<vlc:option>program=1710</vlc:option>
 			</extension>
+			<channel_number>377</channel_number>
 		</track>
 		<track>
-			<title>0224. Studio A</title>
+			<title>Studio A</title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3139,9 +3362,10 @@
 				<vlc:id>225</vlc:id>
 				<vlc:option>program=1038</vlc:option>
 			</extension>
+			<channel_number>401</channel_number>
 		</track>
 		<track>
-			<title>0225. NewsBeat Workshop 1</title>
+			<title>NewsBeat Workshop 1</title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3153,9 +3377,10 @@
 				<vlc:id>226</vlc:id>
 				<vlc:option>program=1217</vlc:option>
 			</extension>
+			<channel_number>871</channel_number>
 		</track>
 		<track>
-			<title>0226. NewsBeat Dub Desk</title>
+			<title>NewsBeat Dub Desk</title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3167,9 +3392,10 @@
 				<vlc:id>227</vlc:id>
 				<vlc:option>program=1218</vlc:option>
 			</extension>
+			<channel_number>873</channel_number>
 		</track>
 		<track>
-			<title>0227. NewsBeat Workshop OS2 </title>
+			<title>NewsBeat Workshop OS2 </title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3181,9 +3407,10 @@
 				<vlc:id>228</vlc:id>
 				<vlc:option>program=1219</vlc:option>
 			</extension>
+			<channel_number>875</channel_number>
 		</track>
 		<track>
-			<title>0228. Workshop 31 </title>
+			<title>Workshop 31 </title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3195,9 +3422,10 @@
 				<vlc:id>229</vlc:id>
 				<vlc:option>program=1220</vlc:option>
 			</extension>
+			<channel_number>825</channel_number>
 		</track>
 		<track>
-			<title>0229. OnDemand 1</title>
+			<title>OnDemand 1</title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3209,9 +3437,10 @@
 				<vlc:id>230</vlc:id>
 				<vlc:option>program=1070</vlc:option>
 			</extension>
+			<channel_number>551</channel_number>
 		</track>
 		<track>
-			<title>0230. CNN T&#x00DC;RK</title>
+			<title>CNN TURK</title>
 			<location>dvb-t://frequency=602000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3223,9 +3452,10 @@
 				<vlc:id>231</vlc:id>
 				<vlc:option>program=15</vlc:option>
 			</extension>
+			<channel_number>374</channel_number>
 		</track>
 		<track>
-			<title>0231. Studio C</title>
+			<title>Studio C</title>
 			<location>dvb-t://frequency=618000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3237,9 +3467,10 @@
 				<vlc:id>232</vlc:id>
 				<vlc:option>program=1039</vlc:option>
 			</extension>
+			<channel_number>403</channel_number>
 		</track>
 		<track>
-			<title>0232. Studio E </title>
+			<title>Studio E </title>
 			<location>dvb-t://frequency=618000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3251,9 +3482,10 @@
 				<vlc:id>233</vlc:id>
 				<vlc:option>program=1040</vlc:option>
 			</extension>
+			<channel_number>405</channel_number>
 		</track>
 		<track>
-			<title>0233. Studio G</title>
+			<title>Studio G</title>
 			<location>dvb-t://frequency=618000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3265,9 +3497,10 @@
 				<vlc:id>234</vlc:id>
 				<vlc:option>program=1041</vlc:option>
 			</extension>
+			<channel_number>407</channel_number>
 		</track>
 		<track>
-			<title>0234. Studio J</title>
+			<title>Studio J</title>
 			<location>dvb-t://frequency=618000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3279,9 +3512,10 @@
 				<vlc:id>235</vlc:id>
 				<vlc:option>program=1042</vlc:option>
 			</extension>
+			<channel_number>409</channel_number>
 		</track>
 		<track>
-			<title>0235. Edit Suite LA</title>
+			<title>Edit Suite LA</title>
 			<location>dvb-t://frequency=618000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3293,9 +3527,10 @@
 				<vlc:id>236</vlc:id>
 				<vlc:option>program=1043</vlc:option>
 			</extension>
+			<channel_number>501</channel_number>
 		</track>
 		<track>
-			<title>0236. Studio L</title>
+			<title>Studio L</title>
 			<location>dvb-t://frequency=618000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3307,9 +3542,10 @@
 				<vlc:id>237</vlc:id>
 				<vlc:option>program=1057</vlc:option>
 			</extension>
+			<channel_number>411</channel_number>
 		</track>
 		<track>
-			<title>0237. Bahrain TV HD</title>
+			<title>Bahrain TV HD</title>
 			<location>dvb-t://frequency=626000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3321,9 +3557,10 @@
 				<vlc:id>238</vlc:id>
 				<vlc:option>program=103</vlc:option>
 			</extension>
+			<channel_number>337</channel_number>
 		</track>
 		<track>
-			<title>0238. Jordan TV (AL Ordoniyah)</title>
+			<title>Jordan TV (AL Ordoniyah)</title>
 			<location>dvb-t://frequency=626000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3335,9 +3572,10 @@
 				<vlc:id>239</vlc:id>
 				<vlc:option>program=40</vlc:option>
 			</extension>
+			<channel_number>332</channel_number>
 		</track>
 		<track>
-			<title>0239. BBC Marathi</title>
+			<title>BBC Marathi</title>
 			<location>dvb-t://frequency=626000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3349,9 +3587,10 @@
 				<vlc:id>240</vlc:id>
 				<vlc:option>program=2059</vlc:option>
 			</extension>
+			<channel_number>673</channel_number>
 		</track>
 		<track>
-			<title>0240. BBC Persian</title>
+			<title>BBC Persian</title>
 			<location>dvb-t://frequency=626000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3363,9 +3602,10 @@
 				<vlc:id>241</vlc:id>
 				<vlc:option>program=5001</vlc:option>
 			</extension>
+			<channel_number>351</channel_number>
 		</track>
 		<track>
-			<title>0241. OMAN TV HD</title>
+			<title>OMAN TV HD</title>
 			<location>dvb-t://frequency=626000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3377,9 +3617,10 @@
 				<vlc:id>242</vlc:id>
 				<vlc:option>program=7007</vlc:option>
 			</extension>
+			<channel_number>333</channel_number>
 		</track>
 		<track>
-			<title>0242. Al Alam News Channel</title>
+			<title>Al Alam News Channel</title>
 			<location>dvb-t://frequency=626000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3391,9 +3632,10 @@
 				<vlc:id>243</vlc:id>
 				<vlc:option>program=3001</vlc:option>
 			</extension>
+			<channel_number>329</channel_number>
 		</track>
 		<track>
-			<title>0243. Edit Suite LE</title>
+			<title>Edit Suite LE</title>
 			<location>dvb-t://frequency=634000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3405,9 +3647,10 @@
 				<vlc:id>244</vlc:id>
 				<vlc:option>program=1045</vlc:option>
 			</extension>
+			<channel_number>505</channel_number>
 		</track>
 		<track>
-			<title>0244. Edit Suite LG </title>
+			<title>Edit Suite LG </title>
 			<location>dvb-t://frequency=634000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3419,9 +3662,10 @@
 				<vlc:id>245</vlc:id>
 				<vlc:option>program=1046</vlc:option>
 			</extension>
+			<channel_number>507</channel_number>
 		</track>
 		<track>
-			<title>0245. Edit Suite LJ </title>
+			<title>Edit Suite LJ </title>
 			<location>dvb-t://frequency=634000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3433,9 +3677,10 @@
 				<vlc:id>246</vlc:id>
 				<vlc:option>program=1047</vlc:option>
 			</extension>
+			<channel_number>509</channel_number>
 		</track>
 		<track>
-			<title>0246. Edit Suite LL </title>
+			<title>Edit Suite LL </title>
 			<location>dvb-t://frequency=634000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3447,9 +3692,10 @@
 				<vlc:id>247</vlc:id>
 				<vlc:option>program=1048</vlc:option>
 			</extension>
+			<channel_number>511</channel_number>
 		</track>
 		<track>
-			<title>0247. Studio P</title>
+			<title>Studio P</title>
 			<location>dvb-t://frequency=634000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3461,9 +3707,10 @@
 				<vlc:id>248</vlc:id>
 				<vlc:option>program=1058</vlc:option>
 			</extension>
+			<channel_number>414</channel_number>
 		</track>
 		<track>
-			<title>0248. RTR</title>
+			<title>RTR</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3475,9 +3722,10 @@
 				<vlc:id>249</vlc:id>
 				<vlc:option>program=4420</vlc:option>
 			</extension>
+			<channel_number>376</channel_number>
 		</track>
 		<track>
-			<title>0249. Telegram TV</title>
+			<title>Telegram TV</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3489,9 +3737,10 @@
 				<vlc:id>250</vlc:id>
 				<vlc:option>program=17650</vlc:option>
 			</extension>
+			<channel_number>360</channel_number>
 		</track>
 		<track>
-			<title>0250. Ariana Afghanistan</title>
+			<title>Ariana Afghanistan</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3503,9 +3752,10 @@
 				<vlc:id>251</vlc:id>
 				<vlc:option>program=4674</vlc:option>
 			</extension>
+			<channel_number>362</channel_number>
 		</track>
 		<track>
-			<title>0251. IRIB 2 (Line Feed)</title>
+			<title>IRIB 2 (Line Feed)</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3517,9 +3767,10 @@
 				<vlc:id>252</vlc:id>
 				<vlc:option>program=2028</vlc:option>
 			</extension>
+			<channel_number>359</channel_number>
 		</track>
 		<track>
-			<title>0252. OnDemand 2</title>
+			<title>OnDemand 2</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3531,9 +3782,10 @@
 				<vlc:id>253</vlc:id>
 				<vlc:option>program=2069</vlc:option>
 			</extension>
+			<channel_number>552</channel_number>
 		</track>
 		<track>
-			<title>0253. Reuters O/G Quad</title>
+			<title>Reuters O/G Quad</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3545,9 +3797,10 @@
 				<vlc:id>254</vlc:id>
 				<vlc:option>program=135</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0254. Al EKhbaria</title>
+			<title>Al EKhbaria</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3559,9 +3812,10 @@
 				<vlc:id>255</vlc:id>
 				<vlc:option>program=2604</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0255. Saudi 1</title>
+			<title>Saudi 1</title>
 			<location>dvb-t://frequency=642000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3573,9 +3827,10 @@
 				<vlc:id>256</vlc:id>
 				<vlc:option>program=2601</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0256. Edit Suite LN </title>
+			<title>Edit Suite LN </title>
 			<location>dvb-t://frequency=650000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3587,9 +3842,10 @@
 				<vlc:id>257</vlc:id>
 				<vlc:option>program=1049</vlc:option>
 			</extension>
+			<channel_number>513</channel_number>
 		</track>
 		<track>
-			<title>0257. Studio 34D ATV</title>
+			<title>Studio 34D ATV</title>
 			<location>dvb-t://frequency=650000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3601,9 +3857,10 @@
 				<vlc:id>258</vlc:id>
 				<vlc:option>program=1036</vlc:option>
 			</extension>
+			<channel_number>434</channel_number>
 		</track>
 		<track>
-			<title>0258. Studio 54D PTV </title>
+			<title>Studio 54D PTV </title>
 			<location>dvb-t://frequency=650000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3615,9 +3872,10 @@
 				<vlc:id>259</vlc:id>
 				<vlc:option>program=1037</vlc:option>
 			</extension>
+			<channel_number>454</channel_number>
 		</track>
 		<track>
-			<title>0259. CCR Bookable 01</title>
+			<title>CCR Bookable 01</title>
 			<location>dvb-t://frequency=650000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3629,9 +3887,10 @@
 				<vlc:id>260</vlc:id>
 				<vlc:option>program=1050</vlc:option>
 			</extension>
+			<channel_number>201</channel_number>
 		</track>
 		<track>
-			<title>0260. CCR Bookable 03</title>
+			<title>CCR Bookable 03</title>
 			<location>dvb-t://frequency=650000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3643,9 +3902,10 @@
 				<vlc:id>261</vlc:id>
 				<vlc:option>program=1051</vlc:option>
 			</extension>
+			<channel_number>203</channel_number>
 		</track>
 		<track>
-			<title>0261. PCNE Chinese</title>
+			<title>PCNE Chinese</title>
 			<location>dvb-t://frequency=658000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3657,9 +3917,10 @@
 				<vlc:id>262</vlc:id>
 				<vlc:option>program=50878</vlc:option>
 			</extension>
+			<channel_number>391</channel_number>
 		</track>
 		<track>
-			<title>0262. CCTV-4</title>
+			<title>CCTV-4</title>
 			<location>dvb-t://frequency=658000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3671,9 +3932,10 @@
 				<vlc:id>263</vlc:id>
 				<vlc:option>program=7224</vlc:option>
 			</extension>
+			<channel_number>390</channel_number>
 		</track>
 		<track>
-			<title>0263. TV 5 Europe</title>
+			<title>TV 5 Europe</title>
 			<location>dvb-t://frequency=658000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3685,9 +3947,10 @@
 				<vlc:id>264</vlc:id>
 				<vlc:option>program=7322</vlc:option>
 			</extension>
+			<channel_number>383</channel_number>
 		</track>
 		<track>
-			<title>0264. News Channel ISO</title>
+			<title>News Channel ISO</title>
 			<location>dvb-t://frequency=658000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3699,9 +3962,10 @@
 				<vlc:id>265</vlc:id>
 				<vlc:option>program=2029</vlc:option>
 			</extension>
+			<channel_number>141</channel_number>
 		</track>
 		<track>
-			<title>0265. OnDemand 4</title>
+			<title>OnDemand 4</title>
 			<location>dvb-t://frequency=658000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3713,9 +3977,10 @@
 				<vlc:id>266</vlc:id>
 				<vlc:option>program=2070</vlc:option>
 			</extension>
+			<channel_number>554</channel_number>
 		</track>
 		<track>
-			<title>0266. CNBC PE Hot</title>
+			<title>CNBC PE Hot</title>
 			<location>dvb-t://frequency=658000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3727,9 +3992,10 @@
 				<vlc:id>267</vlc:id>
 				<vlc:option>program=7463</vlc:option>
 			</extension>
+			<channel_number>122</channel_number>
 		</track>
 		<track>
-			<title>0267. CCR Bookable 05 </title>
+			<title>CCR Bookable 05 </title>
 			<location>dvb-t://frequency=666000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3741,9 +4007,10 @@
 				<vlc:id>268</vlc:id>
 				<vlc:option>program=1052</vlc:option>
 			</extension>
+			<channel_number>205</channel_number>
 		</track>
 		<track>
-			<title>0268. CCR Bookable 07 </title>
+			<title>CCR Bookable 07 </title>
 			<location>dvb-t://frequency=666000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3755,9 +4022,10 @@
 				<vlc:id>269</vlc:id>
 				<vlc:option>program=1053</vlc:option>
 			</extension>
+			<channel_number>207</channel_number>
 		</track>
 		<track>
-			<title>0269. News Package 51 </title>
+			<title>News Package 51 </title>
 			<location>dvb-t://frequency=666000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3769,9 +4037,10 @@
 				<vlc:id>270</vlc:id>
 				<vlc:option>program=1030</vlc:option>
 			</extension>
+			<channel_number>651</channel_number>
 		</track>
 		<track>
-			<title>0270. News Package 53</title>
+			<title>News Package 53</title>
 			<location>dvb-t://frequency=666000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3783,9 +4052,10 @@
 				<vlc:id>271</vlc:id>
 				<vlc:option>program=1031</vlc:option>
 			</extension>
+			<channel_number>653</channel_number>
 		</track>
 		<track>
-			<title>0271. News Package 55</title>
+			<title>News Package 55</title>
 			<location>dvb-t://frequency=666000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3797,9 +4067,10 @@
 				<vlc:id>272</vlc:id>
 				<vlc:option>program=1032</vlc:option>
 			</extension>
+			<channel_number>655</channel_number>
 		</track>
 		<track>
-			<title>0272. Studio B</title>
+			<title>Studio B</title>
 			<location>dvb-t://frequency=674000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3811,9 +4082,10 @@
 				<vlc:id>273</vlc:id>
 				<vlc:option>program=2038</vlc:option>
 			</extension>
+			<channel_number>402</channel_number>
 		</track>
 		<track>
-			<title>0273. Studio F</title>
+			<title>Studio F</title>
 			<location>dvb-t://frequency=674000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3825,9 +4097,10 @@
 				<vlc:id>274</vlc:id>
 				<vlc:option>program=2040</vlc:option>
 			</extension>
+			<channel_number>406</channel_number>
 		</track>
 		<track>
-			<title>0274. Studio D</title>
+			<title>Studio D</title>
 			<location>dvb-t://frequency=674000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3839,9 +4112,10 @@
 				<vlc:id>275</vlc:id>
 				<vlc:option>program=2039</vlc:option>
 			</extension>
+			<channel_number>404</channel_number>
 		</track>
 		<track>
-			<title>0275. Studio H</title>
+			<title>Studio H</title>
 			<location>dvb-t://frequency=674000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3853,9 +4127,10 @@
 				<vlc:id>276</vlc:id>
 				<vlc:option>program=2041</vlc:option>
 			</extension>
+			<channel_number>408</channel_number>
 		</track>
 		<track>
-			<title>0276. Studio K</title>
+			<title>Studio K</title>
 			<location>dvb-t://frequency=674000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3867,9 +4142,10 @@
 				<vlc:id>277</vlc:id>
 				<vlc:option>program=2042</vlc:option>
 			</extension>
+			<channel_number>410</channel_number>
 		</track>
 		<track>
-			<title>0277. News Package 57</title>
+			<title>News Package 57</title>
 			<location>dvb-t://frequency=682000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3881,9 +4157,10 @@
 				<vlc:id>278</vlc:id>
 				<vlc:option>program=1033</vlc:option>
 			</extension>
+			<channel_number>657</channel_number>
 		</track>
 		<track>
-			<title>0278. News Package 59</title>
+			<title>News Package 59</title>
 			<location>dvb-t://frequency=682000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3895,9 +4172,10 @@
 				<vlc:id>279</vlc:id>
 				<vlc:option>program=1034</vlc:option>
 			</extension>
+			<channel_number>659</channel_number>
 		</track>
 		<track>
-			<title>0279. Mill 11 (Studio 1)</title>
+			<title>Mill 11 (Studio 1)</title>
 			<location>dvb-t://frequency=682000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3909,9 +4187,10 @@
 				<vlc:id>280</vlc:id>
 				<vlc:option>program=1035</vlc:option>
 			</extension>
+			<channel_number>661</channel_number>
 		</track>
 		<track>
-			<title>0280. News Package 01 </title>
+			<title>News Package 01 </title>
 			<location>dvb-t://frequency=682000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3923,9 +4202,10 @@
 				<vlc:id>281</vlc:id>
 				<vlc:option>program=1001</vlc:option>
 			</extension>
+			<channel_number>601</channel_number>
 		</track>
 		<track>
-			<title>0281. MRM Main TV Studio</title>
+			<title>MRM Main TV Studio</title>
 			<location>dvb-t://frequency=682000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3937,9 +4217,10 @@
 				<vlc:id>282</vlc:id>
 				<vlc:option>program=1066</vlc:option>
 			</extension>
+			<channel_number>420</channel_number>
 		</track>
 		<track>
-			<title>0282. Edit Suite LB</title>
+			<title>Edit Suite LB</title>
 			<location>dvb-t://frequency=690000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3951,9 +4232,10 @@
 				<vlc:id>283</vlc:id>
 				<vlc:option>program=2043</vlc:option>
 			</extension>
+			<channel_number>502</channel_number>
 		</track>
 		<track>
-			<title>0283. Edit Suite LD</title>
+			<title>Edit Suite LD</title>
 			<location>dvb-t://frequency=690000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3965,9 +4247,10 @@
 				<vlc:id>284</vlc:id>
 				<vlc:option>program=2044</vlc:option>
 			</extension>
+			<channel_number>504</channel_number>
 		</track>
 		<track>
-			<title>0284. Edit Suite LF</title>
+			<title>Edit Suite LF</title>
 			<location>dvb-t://frequency=690000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3979,9 +4262,10 @@
 				<vlc:id>285</vlc:id>
 				<vlc:option>program=2045</vlc:option>
 			</extension>
+			<channel_number>506</channel_number>
 		</track>
 		<track>
-			<title>0285. Edit Suite LK</title>
+			<title>Edit Suite LK</title>
 			<location>dvb-t://frequency=690000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -3993,9 +4277,10 @@
 				<vlc:id>286</vlc:id>
 				<vlc:option>program=2047</vlc:option>
 			</extension>
+			<channel_number>508</channel_number>
 		</track>
 		<track>
-			<title>0286. Edit Suite LH</title>
+			<title>Edit Suite LH</title>
 			<location>dvb-t://frequency=690000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4007,9 +4292,10 @@
 				<vlc:id>287</vlc:id>
 				<vlc:option>program=2046</vlc:option>
 			</extension>
+			<channel_number>510</channel_number>
 		</track>
 		<track>
-			<title>0287. Studio M</title>
+			<title>Studio M</title>
 			<location>dvb-t://frequency=690000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4021,9 +4307,10 @@
 				<vlc:id>288</vlc:id>
 				<vlc:option>program=2057</vlc:option>
 			</extension>
+			<channel_number>412</channel_number>
 		</track>
 		<track>
-			<title>0288. News Package 03 </title>
+			<title>News Package 03 </title>
 			<location>dvb-t://frequency=698000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4035,9 +4322,10 @@
 				<vlc:id>289</vlc:id>
 				<vlc:option>program=1002</vlc:option>
 			</extension>
+			<channel_number>603</channel_number>
 		</track>
 		<track>
-			<title>0289. News Package 05 </title>
+			<title>News Package 05 </title>
 			<location>dvb-t://frequency=698000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4049,9 +4337,10 @@
 				<vlc:id>290</vlc:id>
 				<vlc:option>program=1003</vlc:option>
 			</extension>
+			<channel_number>605</channel_number>
 		</track>
 		<track>
-			<title>0290. News Package 07 </title>
+			<title>News Package 07 </title>
 			<location>dvb-t://frequency=698000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4063,9 +4352,10 @@
 				<vlc:id>291</vlc:id>
 				<vlc:option>program=1004</vlc:option>
 			</extension>
+			<channel_number>607</channel_number>
 		</track>
 		<track>
-			<title>0291. News Package 09</title>
+			<title>News Package 09</title>
 			<location>dvb-t://frequency=698000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4077,9 +4367,10 @@
 				<vlc:id>292</vlc:id>
 				<vlc:option>program=1005</vlc:option>
 			</extension>
+			<channel_number>609</channel_number>
 		</track>
 		<track>
-			<title>0292. News Package 11</title>
+			<title>News Package 11</title>
 			<location>dvb-t://frequency=698000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4091,9 +4382,10 @@
 				<vlc:id>293</vlc:id>
 				<vlc:option>program=1006</vlc:option>
 			</extension>
+			<channel_number>611</channel_number>
 		</track>
 		<track>
-			<title>0293. Studio 44D ATV</title>
+			<title>Studio 44D ATV</title>
 			<location>dvb-t://frequency=706000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4105,9 +4397,10 @@
 				<vlc:id>294</vlc:id>
 				<vlc:option>program=2036</vlc:option>
 			</extension>
+			<channel_number>444</channel_number>
 		</track>
 		<track>
-			<title>0294. ATV Pres</title>
+			<title>ATV Pres</title>
 			<location>dvb-t://frequency=706000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4119,9 +4412,10 @@
 				<vlc:id>295</vlc:id>
 				<vlc:option>program=2037</vlc:option>
 			</extension>
+			<channel_number>445</channel_number>
 		</track>
 		<track>
-			<title>0295. Edit Suite LM</title>
+			<title>Edit Suite LM</title>
 			<location>dvb-t://frequency=706000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4133,9 +4427,10 @@
 				<vlc:id>296</vlc:id>
 				<vlc:option>program=2048</vlc:option>
 			</extension>
+			<channel_number>512</channel_number>
 		</track>
 		<track>
-			<title>0296. Edit Suite LP</title>
+			<title>Edit Suite LP</title>
 			<location>dvb-t://frequency=706000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4147,9 +4442,10 @@
 				<vlc:id>297</vlc:id>
 				<vlc:option>program=2049</vlc:option>
 			</extension>
+			<channel_number>514</channel_number>
 		</track>
 		<track>
-			<title>0297. CCR Bookable 02</title>
+			<title>CCR Bookable 02</title>
 			<location>dvb-t://frequency=706000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4161,9 +4457,10 @@
 				<vlc:id>298</vlc:id>
 				<vlc:option>program=2050</vlc:option>
 			</extension>
+			<channel_number>892</channel_number>
 		</track>
 		<track>
-			<title>0298. News Package 13 </title>
+			<title>News Package 13 </title>
 			<location>dvb-t://frequency=714000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4175,9 +4472,10 @@
 				<vlc:id>299</vlc:id>
 				<vlc:option>program=1007</vlc:option>
 			</extension>
+			<channel_number>613</channel_number>
 		</track>
 		<track>
-			<title>0299. News Package 15 </title>
+			<title>News Package 15 </title>
 			<location>dvb-t://frequency=714000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4189,9 +4487,10 @@
 				<vlc:id>300</vlc:id>
 				<vlc:option>program=1008</vlc:option>
 			</extension>
+			<channel_number>615</channel_number>
 		</track>
 		<track>
-			<title>0300. News Package 17 </title>
+			<title>News Package 17 </title>
 			<location>dvb-t://frequency=714000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4203,9 +4502,10 @@
 				<vlc:id>301</vlc:id>
 				<vlc:option>program=1009</vlc:option>
 			</extension>
+			<channel_number>617</channel_number>
 		</track>
 		<track>
-			<title>0301. News Package 19 </title>
+			<title>News Package 19 </title>
 			<location>dvb-t://frequency=714000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4217,9 +4517,10 @@
 				<vlc:id>302</vlc:id>
 				<vlc:option>program=1010</vlc:option>
 			</extension>
+			<channel_number>619</channel_number>
 		</track>
 		<track>
-			<title>0302. News Package 21 </title>
+			<title>News Package 21 </title>
 			<location>dvb-t://frequency=714000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4231,9 +4532,10 @@
 				<vlc:id>303</vlc:id>
 				<vlc:option>program=1011</vlc:option>
 			</extension>
+			<channel_number>621</channel_number>
 		</track>
 		<track>
-			<title>0303. News Package 52</title>
+			<title>News Package 52</title>
 			<location>dvb-t://frequency=722000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4245,9 +4547,10 @@
 				<vlc:id>304</vlc:id>
 				<vlc:option>program=2030</vlc:option>
 			</extension>
+			<channel_number>652</channel_number>
 		</track>
 		<track>
-			<title>0304. News Package 54</title>
+			<title>News Package 54</title>
 			<location>dvb-t://frequency=722000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4259,9 +4562,10 @@
 				<vlc:id>305</vlc:id>
 				<vlc:option>program=2031</vlc:option>
 			</extension>
+			<channel_number>654</channel_number>
 		</track>
 		<track>
-			<title>0305. CCR Bookable 04</title>
+			<title>CCR Bookable 04</title>
 			<location>dvb-t://frequency=722000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4273,9 +4577,10 @@
 				<vlc:id>306</vlc:id>
 				<vlc:option>program=2051</vlc:option>
 			</extension>
+			<channel_number>894</channel_number>
 		</track>
 		<track>
-			<title>0306. CCR Bookable 06</title>
+			<title>CCR Bookable 06</title>
 			<location>dvb-t://frequency=722000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4287,9 +4592,10 @@
 				<vlc:id>307</vlc:id>
 				<vlc:option>program=2052</vlc:option>
 			</extension>
+			<channel_number>896</channel_number>
 		</track>
 		<track>
-			<title>0307. CCR Bookable 08</title>
+			<title>CCR Bookable 08</title>
 			<location>dvb-t://frequency=722000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4301,9 +4607,10 @@
 				<vlc:id>308</vlc:id>
 				<vlc:option>program=2053</vlc:option>
 			</extension>
+			<channel_number>898</channel_number>
 		</track>
 		<track>
-			<title>0308. Edit Suite 2B</title>
+			<title>Edit Suite 2B</title>
 			<location>dvb-t://frequency=722000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4315,9 +4622,10 @@
 				<vlc:id>309</vlc:id>
 				<vlc:option>program=2067</vlc:option>
 			</extension>
+			<channel_number>522</channel_number>
 		</track>
 		<track>
-			<title>0309. News Package 23</title>
+			<title>News Package 23</title>
 			<location>dvb-t://frequency=730000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4329,9 +4637,10 @@
 				<vlc:id>310</vlc:id>
 				<vlc:option>program=1012</vlc:option>
 			</extension>
+			<channel_number>623</channel_number>
 		</track>
 		<track>
-			<title>0310. News Package 25 </title>
+			<title>News Package 25 </title>
 			<location>dvb-t://frequency=730000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4343,9 +4652,10 @@
 				<vlc:id>311</vlc:id>
 				<vlc:option>program=1013</vlc:option>
 			</extension>
+			<channel_number>625</channel_number>
 		</track>
 		<track>
-			<title>0311. News Package 27 </title>
+			<title>News Package 27 </title>
 			<location>dvb-t://frequency=730000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4357,9 +4667,10 @@
 				<vlc:id>312</vlc:id>
 				<vlc:option>program=1014</vlc:option>
 			</extension>
+			<channel_number>627</channel_number>
 		</track>
 		<track>
-			<title>0312. News Package 29 </title>
+			<title>News Package 29 </title>
 			<location>dvb-t://frequency=730000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4371,9 +4682,10 @@
 				<vlc:id>313</vlc:id>
 				<vlc:option>program=1015</vlc:option>
 			</extension>
+			<channel_number>629</channel_number>
 		</track>
 		<track>
-			<title>0313. News Package 31 </title>
+			<title>News Package 31 </title>
 			<location>dvb-t://frequency=730000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4385,9 +4697,10 @@
 				<vlc:id>314</vlc:id>
 				<vlc:option>program=1016</vlc:option>
 			</extension>
+			<channel_number>631</channel_number>
 		</track>
 		<track>
-			<title>0314. News Package 56</title>
+			<title>News Package 56</title>
 			<location>dvb-t://frequency=738000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4399,9 +4712,10 @@
 				<vlc:id>315</vlc:id>
 				<vlc:option>program=2032</vlc:option>
 			</extension>
+			<channel_number>656</channel_number>
 		</track>
 		<track>
-			<title>0315. News Package 58</title>
+			<title>News Package 58</title>
 			<location>dvb-t://frequency=738000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4413,9 +4727,10 @@
 				<vlc:id>316</vlc:id>
 				<vlc:option>program=2033</vlc:option>
 			</extension>
+			<channel_number>658</channel_number>
 		</track>
 		<track>
-			<title>0316. CAV 505</title>
+			<title>CAV 505</title>
 			<location>dvb-t://frequency=738000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4427,9 +4742,10 @@
 				<vlc:id>317</vlc:id>
 				<vlc:option>program=2034</vlc:option>
 			</extension>
+			<channel_number>671</channel_number>
 		</track>
 		<track>
-			<title>0317. Newswire Multi</title>
+			<title>Newswire Multi</title>
 			<location>dvb-t://frequency=738000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4441,9 +4757,10 @@
 				<vlc:id>318</vlc:id>
 				<vlc:option>program=2035</vlc:option>
 			</extension>
+			<channel_number>160</channel_number>
 		</track>
 		<track>
-			<title>0318. News Package Guide</title>
+			<title>News Package Guide</title>
 			<location>dvb-t://frequency=738000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4455,9 +4772,10 @@
 				<vlc:id>319</vlc:id>
 				<vlc:option>program=2237</vlc:option>
 			</extension>
+			<channel_number>600</channel_number>
 		</track>
 		<track>
-			<title>0319. News Package 33 </title>
+			<title>News Package 33 </title>
 			<location>dvb-t://frequency=746000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4469,9 +4787,10 @@
 				<vlc:id>320</vlc:id>
 				<vlc:option>program=1017</vlc:option>
 			</extension>
+			<channel_number>633</channel_number>
 		</track>
 		<track>
-			<title>0320. News Package 35 </title>
+			<title>News Package 35 </title>
 			<location>dvb-t://frequency=746000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4483,9 +4802,10 @@
 				<vlc:id>321</vlc:id>
 				<vlc:option>program=1018</vlc:option>
 			</extension>
+			<channel_number>635</channel_number>
 		</track>
 		<track>
-			<title>0321. News Package 37 </title>
+			<title>News Package 37 </title>
 			<location>dvb-t://frequency=746000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4497,9 +4817,10 @@
 				<vlc:id>322</vlc:id>
 				<vlc:option>program=1019</vlc:option>
 			</extension>
+			<channel_number>637</channel_number>
 		</track>
 		<track>
-			<title>0322. News Package 39 </title>
+			<title>News Package 39 </title>
 			<location>dvb-t://frequency=746000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4511,9 +4832,10 @@
 				<vlc:id>323</vlc:id>
 				<vlc:option>program=1020</vlc:option>
 			</extension>
+			<channel_number>639</channel_number>
 		</track>
 		<track>
-			<title>0323. News Package 41 </title>
+			<title>News Package 41 </title>
 			<location>dvb-t://frequency=746000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4525,9 +4847,10 @@
 				<vlc:id>324</vlc:id>
 				<vlc:option>program=1021</vlc:option>
 			</extension>
+			<channel_number>641</channel_number>
 		</track>
 		<track>
-			<title>0324. News Package 02</title>
+			<title>News Package 02</title>
 			<location>dvb-t://frequency=754000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4539,9 +4862,10 @@
 				<vlc:id>325</vlc:id>
 				<vlc:option>program=2001</vlc:option>
 			</extension>
+			<channel_number>602</channel_number>
 		</track>
 		<track>
-			<title>0325. News Package 04</title>
+			<title>News Package 04</title>
 			<location>dvb-t://frequency=754000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4553,9 +4877,10 @@
 				<vlc:id>326</vlc:id>
 				<vlc:option>program=2002</vlc:option>
 			</extension>
+			<channel_number>604</channel_number>
 		</track>
 		<track>
-			<title>0326. News Package 06</title>
+			<title>News Package 06</title>
 			<location>dvb-t://frequency=754000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4567,9 +4892,10 @@
 				<vlc:id>327</vlc:id>
 				<vlc:option>program=2003</vlc:option>
 			</extension>
+			<channel_number>606</channel_number>
 		</track>
 		<track>
-			<title>0327. News Package 08</title>
+			<title>News Package 08</title>
 			<location>dvb-t://frequency=754000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4581,9 +4907,10 @@
 				<vlc:id>328</vlc:id>
 				<vlc:option>program=2004</vlc:option>
 			</extension>
+			<channel_number>608</channel_number>
 		</track>
 		<track>
-			<title>0328. News Package 10</title>
+			<title>News Package 10</title>
 			<location>dvb-t://frequency=754000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4595,9 +4922,10 @@
 				<vlc:id>329</vlc:id>
 				<vlc:option>program=2005</vlc:option>
 			</extension>
+			<channel_number>610</channel_number>
 		</track>
 		<track>
-			<title>0329. News Package 43 </title>
+			<title>News Package 43 </title>
 			<location>dvb-t://frequency=762000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4609,9 +4937,10 @@
 				<vlc:id>330</vlc:id>
 				<vlc:option>program=1022</vlc:option>
 			</extension>
+			<channel_number>643</channel_number>
 		</track>
 		<track>
-			<title>0330. News Package 45 </title>
+			<title>News Package 45 </title>
 			<location>dvb-t://frequency=762000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4623,9 +4952,10 @@
 				<vlc:id>331</vlc:id>
 				<vlc:option>program=1023</vlc:option>
 			</extension>
+			<channel_number>645</channel_number>
 		</track>
 		<track>
-			<title>0331. News Package 47 </title>
+			<title>News Package 47 </title>
 			<location>dvb-t://frequency=762000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4637,9 +4967,10 @@
 				<vlc:id>332</vlc:id>
 				<vlc:option>program=1024</vlc:option>
 			</extension>
+			<channel_number>647</channel_number>
 		</track>
 		<track>
-			<title>0332. News Package 49 </title>
+			<title>News Package 49 </title>
 			<location>dvb-t://frequency=762000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4651,9 +4982,10 @@
 				<vlc:id>333</vlc:id>
 				<vlc:option>program=1025</vlc:option>
 			</extension>
+			<channel_number>649</channel_number>
 		</track>
 		<track>
-			<title>0333. Edit Suite 2C</title>
+			<title>Edit Suite 2C</title>
 			<location>dvb-t://frequency=762000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4665,9 +4997,10 @@
 				<vlc:id>334</vlc:id>
 				<vlc:option>program=1067</vlc:option>
 			</extension>
+			<channel_number>523</channel_number>
 		</track>
 		<track>
-			<title>0334. Edit Suite 3A</title>
+			<title>Edit Suite 3A</title>
 			<location>dvb-t://frequency=762000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4679,9 +5012,10 @@
 				<vlc:id>335</vlc:id>
 				<vlc:option>program=1068</vlc:option>
 			</extension>
+			<channel_number>524</channel_number>
 		</track>
 		<track>
-			<title>0335. News Package 12</title>
+			<title>News Package 12</title>
 			<location>dvb-t://frequency=770000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4693,9 +5027,10 @@
 				<vlc:id>336</vlc:id>
 				<vlc:option>program=2006</vlc:option>
 			</extension>
+			<channel_number>612</channel_number>
 		</track>
 		<track>
-			<title>0336. News Package 14</title>
+			<title>News Package 14</title>
 			<location>dvb-t://frequency=770000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4707,9 +5042,10 @@
 				<vlc:id>337</vlc:id>
 				<vlc:option>program=2007</vlc:option>
 			</extension>
+			<channel_number>614</channel_number>
 		</track>
 		<track>
-			<title>0337. News Package 16</title>
+			<title>News Package 16</title>
 			<location>dvb-t://frequency=770000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4721,9 +5057,10 @@
 				<vlc:id>338</vlc:id>
 				<vlc:option>program=2008</vlc:option>
 			</extension>
+			<channel_number>616</channel_number>
 		</track>
 		<track>
-			<title>0338. News Package 18</title>
+			<title>News Package 18</title>
 			<location>dvb-t://frequency=770000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4735,9 +5072,10 @@
 				<vlc:id>339</vlc:id>
 				<vlc:option>program=2009</vlc:option>
 			</extension>
+			<channel_number>618</channel_number>
 		</track>
 		<track>
-			<title>0339. News Package 20</title>
+			<title>News Package 20</title>
 			<location>dvb-t://frequency=770000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4749,9 +5087,10 @@
 				<vlc:id>340</vlc:id>
 				<vlc:option>program=2010</vlc:option>
 			</extension>
+			<channel_number>620</channel_number>
 		</track>
 		<track>
-			<title>0340. News Quad 2</title>
+			<title>News Quad 2</title>
 			<location>dvb-t://frequency=778000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4763,9 +5102,10 @@
 				<vlc:id>341</vlc:id>
 				<vlc:option>program=1061</vlc:option>
 			</extension>
+			<channel_number>120</channel_number>
 		</track>
 		<track>
-			<title>0341. News Quad 4</title>
+			<title>News Quad 4</title>
 			<location>dvb-t://frequency=778000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4777,9 +5117,10 @@
 				<vlc:id>342</vlc:id>
 				<vlc:option>program=1062</vlc:option>
 			</extension>
+			<channel_number>140</channel_number>
 		</track>
 		<track>
-			<title>0342. Studio B OS Multi</title>
+			<title>Studio B OS Multi</title>
 			<location>dvb-t://frequency=778000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4791,9 +5132,10 @@
 				<vlc:id>343</vlc:id>
 				<vlc:option>program=1059</vlc:option>
 			</extension>
+			<channel_number>492</channel_number>
 		</track>
 		<track>
-			<title>0343. OnDemand 3</title>
+			<title>OnDemand 3</title>
 			<location>dvb-t://frequency=778000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4805,9 +5147,10 @@
 				<vlc:id>344</vlc:id>
 				<vlc:option>program=1071</vlc:option>
 			</extension>
+			<channel_number>553</channel_number>
 		</track>
 		<track>
-			<title>0344. LDN 2</title>
+			<title>LDN 2</title>
 			<location>dvb-t://frequency=778000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4819,9 +5162,10 @@
 				<vlc:id>345</vlc:id>
 				<vlc:option>program=1301</vlc:option>
 			</extension>
+			<channel_number>232</channel_number>
 		</track>
 		<track>
-			<title>0345. BBC Radio London</title>
+			<title>BBC Radio London</title>
 			<location>dvb-t://frequency=778000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4833,9 +5177,10 @@
 				<vlc:id>346</vlc:id>
 				<vlc:option>program=6148</vlc:option>
 			</extension>
+			<channel_number>721</channel_number>
 		</track>
 		<track>
-			<title>0346. News Package 22</title>
+			<title>News Package 22</title>
 			<location>dvb-t://frequency=786000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4847,9 +5192,10 @@
 				<vlc:id>347</vlc:id>
 				<vlc:option>program=2011</vlc:option>
 			</extension>
+			<channel_number>622</channel_number>
 		</track>
 		<track>
-			<title>0347. News Package 24</title>
+			<title>News Package 24</title>
 			<location>dvb-t://frequency=786000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4861,9 +5207,10 @@
 				<vlc:id>348</vlc:id>
 				<vlc:option>program=2012</vlc:option>
 			</extension>
+			<channel_number>624</channel_number>
 		</track>
 		<track>
-			<title>0348. News Package 26</title>
+			<title>News Package 26</title>
 			<location>dvb-t://frequency=786000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4875,9 +5222,10 @@
 				<vlc:id>349</vlc:id>
 				<vlc:option>program=2013</vlc:option>
 			</extension>
+			<channel_number>626</channel_number>
 		</track>
 		<track>
-			<title>0349. News Package 28</title>
+			<title>News Package 28</title>
 			<location>dvb-t://frequency=786000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4889,9 +5237,10 @@
 				<vlc:id>350</vlc:id>
 				<vlc:option>program=2014</vlc:option>
 			</extension>
+			<channel_number>628</channel_number>
 		</track>
 		<track>
-			<title>0350. News Package 30</title>
+			<title>News Package 30</title>
 			<location>dvb-t://frequency=786000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4903,9 +5252,10 @@
 				<vlc:id>351</vlc:id>
 				<vlc:option>program=2015</vlc:option>
 			</extension>
+			<channel_number>630</channel_number>
 		</track>
 		<track>
-			<title>0351. News Package 32</title>
+			<title>News Package 32</title>
 			<location>dvb-t://frequency=802000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4917,9 +5267,10 @@
 				<vlc:id>352</vlc:id>
 				<vlc:option>program=2016</vlc:option>
 			</extension>
+			<channel_number>632</channel_number>
 		</track>
 		<track>
-			<title>0352. News Package 34</title>
+			<title>News Package 34</title>
 			<location>dvb-t://frequency=802000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4931,9 +5282,10 @@
 				<vlc:id>353</vlc:id>
 				<vlc:option>program=2017</vlc:option>
 			</extension>
+			<channel_number>634</channel_number>
 		</track>
 		<track>
-			<title>0353. News Package 38</title>
+			<title>News Package 38</title>
 			<location>dvb-t://frequency=802000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4945,9 +5297,10 @@
 				<vlc:id>354</vlc:id>
 				<vlc:option>program=2019</vlc:option>
 			</extension>
+			<channel_number>638</channel_number>
 		</track>
 		<track>
-			<title>0354. News Package 40</title>
+			<title>News Package 40</title>
 			<location>dvb-t://frequency=802000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4959,9 +5312,10 @@
 				<vlc:id>355</vlc:id>
 				<vlc:option>program=2020</vlc:option>
 			</extension>
+			<channel_number>640</channel_number>
 		</track>
 		<track>
-			<title>0355. News Package 36 </title>
+			<title>News Package 36 </title>
 			<location>dvb-t://frequency=802000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4973,9 +5327,10 @@
 				<vlc:id>356</vlc:id>
 				<vlc:option>program=2018</vlc:option>
 			</extension>
+			<channel_number>636</channel_number>
 		</track>
 		<track>
-			<title>0356. LDN RX3</title>
+			<title>LDN RX3</title>
 			<location>dvb-t://frequency=826000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -4987,9 +5342,10 @@
 				<vlc:id>357</vlc:id>
 				<vlc:option>program=1102</vlc:option>
 			</extension>
+			<channel_number>233</channel_number>
 		</track>
 		<track>
-			<title>0357. Rx Book 5</title>
+			<title>Rx Book 5</title>
 			<location>dvb-t://frequency=826000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5001,9 +5357,10 @@
 				<vlc:id>358</vlc:id>
 				<vlc:option>program=1055</vlc:option>
 			</extension>
+			<channel_number>215</channel_number>
 		</track>
 		<track>
-			<title>0358. Rx Book 6</title>
+			<title>Rx Book 6</title>
 			<location>dvb-t://frequency=826000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5015,9 +5372,10 @@
 				<vlc:id>359</vlc:id>
 				<vlc:option>program=1056</vlc:option>
 			</extension>
+			<channel_number>216</channel_number>
 		</track>
 		<track>
-			<title>0359. Rx Book 4</title>
+			<title>Rx Book 4</title>
 			<location>dvb-t://frequency=826000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5029,9 +5387,10 @@
 				<vlc:id>360</vlc:id>
 				<vlc:option>program=1054</vlc:option>
 			</extension>
+			<channel_number>214</channel_number>
 		</track>
 		<track>
-			<title>0360. News Quad 1</title>
+			<title>News Quad 1</title>
 			<location>dvb-t://frequency=834000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5043,9 +5402,10 @@
 				<vlc:id>361</vlc:id>
 				<vlc:option>program=2061</vlc:option>
 			</extension>
+			<channel_number>110</channel_number>
 		</track>
 		<track>
-			<title>0361. Agency Quad 3</title>
+			<title>Agency Quad 3</title>
 			<location>dvb-t://frequency=834000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5057,9 +5417,10 @@
 				<vlc:id>362</vlc:id>
 				<vlc:option>program=2062</vlc:option>
 			</extension>
+			<channel_number>130</channel_number>
 		</track>
 		<track>
-			<title>0362. News Quad 5</title>
+			<title>News Quad 5</title>
 			<location>dvb-t://frequency=834000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5071,9 +5432,10 @@
 				<vlc:id>363</vlc:id>
 				<vlc:option>program=2063</vlc:option>
 			</extension>
+			<channel_number>150</channel_number>
 		</track>
 		<track>
-			<title>0363. Edit Suite 3B</title>
+			<title>Edit Suite 3B</title>
 			<location>dvb-t://frequency=834000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5085,9 +5447,10 @@
 				<vlc:id>364</vlc:id>
 				<vlc:option>program=2068</vlc:option>
 			</extension>
+			<channel_number>525</channel_number>
 		</track>
 		<track>
-			<title>0364. TV Globo</title>
+			<title>TV Globo</title>
 			<location>dvb-t://frequency=834000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5099,9 +5462,10 @@
 				<vlc:id>365</vlc:id>
 				<vlc:option>program=2080</vlc:option>
 			</extension>
+			<channel_number>395</channel_number>
 		</track>
 		<track>
-			<title>0365. BBC ONE (back-up)</title>
+			<title>BBC ONE (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5113,9 +5477,10 @@
 				<vlc:id>366</vlc:id>
 				<vlc:option>program=14164</vlc:option>
 			</extension>
+			<channel_number>291</channel_number>
 		</track>
 		<track>
-			<title>0366. BBC TWO (back-up)</title>
+			<title>BBC TWO (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5127,9 +5492,10 @@
 				<vlc:id>367</vlc:id>
 				<vlc:option>program=14287</vlc:option>
 			</extension>
+			<channel_number>292</channel_number>
 		</track>
 		<track>
-			<title>0367. BBC NEWS (back-up)</title>
+			<title>BBC NEWS (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5141,9 +5507,10 @@
 				<vlc:id>368</vlc:id>
 				<vlc:option>program=14352</vlc:option>
 			</extension>
+			<channel_number>295</channel_number>
 		</track>
 		<track>
-			<title>0368. CBBC (back-up)</title>
+			<title>CBBC (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5155,9 +5522,10 @@
 				<vlc:id>369</vlc:id>
 				<vlc:option>program=14608</vlc:option>
 			</extension>
+			<channel_number>297</channel_number>
 		</track>
 		<track>
-			<title>0369. CBeebies (back-up)</title>
+			<title>CBeebies (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5169,9 +5537,10 @@
 				<vlc:id>370</vlc:id>
 				<vlc:option>program=14672</vlc:option>
 			</extension>
+			<channel_number>298</channel_number>
 		</track>
 		<track>
-			<title>0370. BBC Parliament (back-up)</title>
+			<title>BBC Parliament (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5183,9 +5552,10 @@
 				<vlc:id>371</vlc:id>
 				<vlc:option>program=14736</vlc:option>
 			</extension>
+			<channel_number>296</channel_number>
 		</track>
 		<track>
-			<title>0371. BBC R5L (back-up)</title>
+			<title>BBC R5L (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5197,9 +5567,10 @@
 				<vlc:id>372</vlc:id>
 				<vlc:option>program=15632</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0372. BBC 6 Music (back-up)</title>
+			<title>BBC 6 Music (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5211,9 +5582,10 @@
 				<vlc:id>373</vlc:id>
 				<vlc:option>program=15760</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0373. BBC Radio 4 Ex (back-up)</title>
+			<title>BBC Radio 4 Ex (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5225,9 +5597,10 @@
 				<vlc:id>374</vlc:id>
 				<vlc:option>program=15824</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0374. BBC R1X (back-up)</title>
+			<title>BBC R1X (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5239,9 +5612,10 @@
 				<vlc:id>375</vlc:id>
 				<vlc:option>program=15888</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0375. BBC Asian Net. (back-up)</title>
+			<title>BBC Asian(back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5253,9 +5627,10 @@
 				<vlc:id>376</vlc:id>
 				<vlc:option>program=15952</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0376. BBC World Sv. (back-up)</title>
+			<title>BBC Worl(back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5267,9 +5642,10 @@
 				<vlc:id>377</vlc:id>
 				<vlc:option>program=16016</vlc:option>
 			</extension>
+			<channel_number>790</channel_number>
 		</track>
 		<track>
-			<title>0377. BBC Radio 1 (back-up)</title>
+			<title>BBC Radio 1 (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5281,9 +5657,10 @@
 				<vlc:id>378</vlc:id>
 				<vlc:option>program=16720</vlc:option>
 			</extension>
+			<channel_number>791</channel_number>
 		</track>
 		<track>
-			<title>0378. BBC Radio 2 (back-up)</title>
+			<title>BBC Radio 2 (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5295,9 +5672,10 @@
 				<vlc:id>379</vlc:id>
 				<vlc:option>program=16784</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0379. BBC Radio 3 (back-up)</title>
+			<title>BBC Radio 3 (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5309,9 +5687,10 @@
 				<vlc:id>380</vlc:id>
 				<vlc:option>program=16848</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0380. BBC Radio 4 (back-up)</title>
+			<title>BBC Radio 4 (back-up)</title>
 			<location>dvb-t://frequency=842000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5323,9 +5702,10 @@
 				<vlc:id>381</vlc:id>
 				<vlc:option>program=16912</vlc:option>
 			</extension>
+			<channel_number>0</channel_number>
 		</track>
 		<track>
-			<title>0381. CBBC HD</title>
+			<title>CBBC HD</title>
 			<location>dvb-t://frequency=858000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5337,9 +5717,10 @@
 				<vlc:id>382</vlc:id>
 				<vlc:option>program=6952</vlc:option>
 			</extension>
+			<channel_number>196</channel_number>
 		</track>
 		<track>
-			<title>0382. CBeebies HD</title>
+			<title>CBeebies HD</title>
 			<location>dvb-t://frequency=858000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5351,9 +5732,10 @@
 				<vlc:id>383</vlc:id>
 				<vlc:option>program=8932</vlc:option>
 			</extension>
+			<channel_number>197</channel_number>
 		</track>
 		<track>
-			<title>0383. WS TV Quad 2</title>
+			<title>WS TV Quad 2</title>
 			<location>dvb-t://frequency=858000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5365,9 +5747,10 @@
 				<vlc:id>384</vlc:id>
 				<vlc:option>program=194</vlc:option>
 			</extension>
+			<channel_number>222</channel_number>
 		</track>
 		<track>
-			<title>0384. Dehli 5</title>
+			<title>Dehli 5</title>
 			<location>dvb-t://frequency=858000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5379,9 +5762,10 @@
 				<vlc:id>385</vlc:id>
 				<vlc:option>program=196</vlc:option>
 			</extension>
+			<channel_number>224</channel_number>
 		</track>
 		<track>
-			<title>0385. Nairobi NRB1</title>
+			<title>Nairobi NRB1</title>
 			<location>dvb-t://frequency=858000000</location>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
 				<vlc:option>dvb-bandwidth=8</vlc:option>
@@ -5393,6 +5777,8 @@
 				<vlc:id>386</vlc:id>
 				<vlc:option>program=198</vlc:option>
 			</extension>
+			<channel_number>226</channel_number>
 		</track>
 	</trackList>
 </playlist>
+

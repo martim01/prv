@@ -20,7 +20,6 @@ class ChannelManager
         static ChannelManager& Get();
 
         bool LoadDVBList(const wxFileName& fnDoc);
-        bool LoadChannelNumbers(const wxFileName& fnDoc);
 
         std::map<unsigned long, channel>::const_iterator GetChannelNumberBegin();
         std::map<unsigned long, channel>::const_iterator GetChannelNumberEnd();

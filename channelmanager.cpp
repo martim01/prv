@@ -41,35 +41,6 @@ bool ChannelManager::LoadDVBList(const wxFileName& fnDoc)
     return false;
 }
 
-bool ChannelManager::LoadChannelNumbers(const wxFileName& fnDoc)
-{
-    iniManager ini;
-    if(ini.ReadIniFile(fnDoc.GetFullPath()))
-    {
-        const iniSection* pSection = ini.GetSection(wxT("ChannelNumbers"));
-        if(pSection)
-        {
-            for(map<wxString, wxString>::const_iterator itData = pSection->GetDataBegin(); itData != pSection->GetDataEnd(); ++itData)
-            {
-                unsigned long nChannel;
-                if(itData->first.ToULong(&nChannel))
-                {
-                    for(map<wxString, channel>::iterator itChannel = m_mChannelName.begin(); itChannel != m_mChannelName.end(); ++itChannel)
-                    {
-                        if(itChannel->second.sPID == itData->second)
-                        {
-                            m_mChannelNumber.insert(make_pair(nChannel, itChannel->second));
-                            break;
-                        }
-                    }
-                }
-            }
-        }
-        return true;
-    }
-    return false;
-}
-
 map<unsigned long, channel>::const_iterator ChannelManager::GetChannelNumberBegin()
 {
     return m_mChannelNumber.begin();
@@ -109,7 +80,7 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
     {
         if(pNode->GetName().CmpNoCase(wxT("title")) == 0)
         {
-            aChannel.sName = pNode->GetNodeContent().AfterFirst(wxT(' '));
+            aChannel.sName = pNode->GetNodeContent();
         }
         else if(pNode->GetName().CmpNoCase(wxT("location")) == 0)
         {
@@ -133,11 +104,24 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
                 }
             }
         }
+        else if(pNode->GetName().CmpNoCase(wxT("channel_number")) == 0)
+        {
+            pNode->GetNodeContent().ToULong(&aChannel.nNumber);
+        }
     }
     if(aChannel.sLocation.empty() == false)
     {
-        //m_mChannelNumber.insert(make_pair(aChannel.nNumber, aChannel));
-        m_mChannelName.insert(make_pair(aChannel.sName, aChannel));
+        if(aChannel.nNumber != 0)
+        {
+            if(m_mChannelNumber.insert(make_pair(aChannel.nNumber, aChannel)).second == false)
+            {
+                wxLogDebug(wxT("Duplicate channel number %d = %s"), aChannel.nNumber, aChannel.sName.c_str());
+            }
+            if(m_mChannelName.insert(make_pair(aChannel.sName, aChannel)).second == false)
+            {
+                wxLogDebug(wxT("Duplicate channel name %d = %s"), aChannel.nNumber, aChannel.sName.c_str());
+            }
+        }
     }
 }
 

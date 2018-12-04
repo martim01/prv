@@ -10,6 +10,7 @@
 #include "prvApp.h"
 #include "settings.h"
 #include <wx/stdpaths.h>
+#include <wx/log.h>
 
 //(*AppHeaders
 #include "prvMain.h"
@@ -20,6 +21,7 @@ IMPLEMENT_APP(prvApp);
 
 bool prvApp::OnInit()
 {
+    wxLogDebug(wxString::Format(wxT("%s/prv/prv.ini"), wxStandardPaths::Get().GetDocumentsDir().c_str()));
     Settings::Get().ReadSettings(wxString::Format(wxT("%s/prv/prv.ini"), wxStandardPaths::Get().GetDocumentsDir().c_str()));
 
     //(*AppInitialize
