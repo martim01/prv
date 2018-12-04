@@ -10,6 +10,7 @@ struct channel
     unsigned long nNumber;
     wxString sName;
     wxString sLocation;
+    wxString sPID;
     std::list<wxString> lstOptions;
 };
 
@@ -19,13 +20,14 @@ class ChannelManager
         static ChannelManager& Get();
 
         bool LoadDVBList(const wxFileName& fnDoc);
+        bool LoadChannelNumbers(const wxFileName& fnDoc);
 
-        std::map<size_t, channel>::const_iterator GetChannelNumberBegin();
-        std::map<size_t, channel>::const_iterator GetChannelNumberEnd();
+        std::map<unsigned long, channel>::const_iterator GetChannelNumberBegin();
+        std::map<unsigned long, channel>::const_iterator GetChannelNumberEnd();
         std::map<wxString, channel>::const_iterator GetChannelNameBegin();
         std::map<wxString, channel>::const_iterator GetChannelNameEnd();
 
-        std::map<size_t, channel>::const_iterator FindChannel(size_t nChannelNumber);
+        std::map<unsigned long, channel>::const_iterator FindChannel(unsigned long nChannelNumber);
 
 
     private:
@@ -37,6 +39,6 @@ class ChannelManager
         void LoadDVBChannel(wxXmlNode* pChannelNode);
 
 
-        std::map<size_t, channel> m_mChannelNumber;
+        std::map<unsigned long, channel> m_mChannelNumber;
         std::map<wxString, channel> m_mChannelName;
 };

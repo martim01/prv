@@ -76,6 +76,7 @@ prvDialog::prvDialog(wxWindow* parent,wxWindowID id)
 
 
     ChannelManager::Get().LoadDVBList(wxFileName(wxT("channels.xml")));
+    ChannelManager::Get().LoadChannelNumbers(wxFileName(wxT("channel_numbers.ini")));
 
     m_ppnlVLC->ShowChannelList(true);
 

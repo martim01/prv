@@ -1,5 +1,7 @@
 #include "channelmanager.h"
 #include <wx/log.h>
+#include "inimanager.h"
+#include "inisection.h"
 
 using namespace std;
 
@@ -39,15 +41,42 @@ bool ChannelManager::LoadDVBList(const wxFileName& fnDoc)
     return false;
 }
 
+bool ChannelManager::LoadChannelNumbers(const wxFileName& fnDoc)
+{
+    iniManager ini;
+    if(ini.ReadIniFile(fnDoc.GetFullPath()))
+    {
+        const iniSection* pSection = ini.GetSection(wxT("ChannelNumbers"));
+        if(pSection)
+        {
+            for(map<wxString, wxString>::const_iterator itData = pSection->GetDataBegin(); itData != pSection->GetDataEnd(); ++itData)
+            {
+                unsigned long nChannel;
+                if(itData->first.ToULong(&nChannel))
+                {
+                    for(map<wxString, channel>::iterator itChannel = m_mChannelName.begin(); itChannel != m_mChannelName.end(); ++itChannel)
+                    {
+                        if(itChannel->second.sPID == itData->second)
+                        {
+                            m_mChannelNumber.insert(make_pair(nChannel, itChannel->second));
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        return true;
+    }
+    return false;
+}
 
-
-map<size_t, channel>::const_iterator ChannelManager::GetChannelNumberBegin()
+map<unsigned long, channel>::const_iterator ChannelManager::GetChannelNumberBegin()
 {
     return m_mChannelNumber.begin();
 }
 
 
-map<size_t, channel>::const_iterator ChannelManager::GetChannelNumberEnd()
+map<unsigned long, channel>::const_iterator ChannelManager::GetChannelNumberEnd()
 {
     return m_mChannelNumber.end();
 }
@@ -97,20 +126,23 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
                 else if(pVlcNode->GetName().CmpNoCase(wxT("vlc:option")) == 0)
                 {
                     aChannel.lstOptions.push_back(pVlcNode->GetNodeContent());
-
+                    if(pVlcNode->GetNodeContent().BeforeFirst(wxT('=')).CmpNoCase(wxT("program")) == 0)
+                    {
+                        aChannel.sPID = pVlcNode->GetNodeContent().AfterFirst(wxT('='));
+                    }
                 }
             }
         }
     }
     if(aChannel.sLocation.empty() == false)
     {
-        m_mChannelNumber.insert(make_pair(aChannel.nNumber, aChannel));
+        //m_mChannelNumber.insert(make_pair(aChannel.nNumber, aChannel));
         m_mChannelName.insert(make_pair(aChannel.sName, aChannel));
     }
 }
 
 
-map<size_t, channel>::const_iterator ChannelManager::FindChannel(size_t nChannelNumber)
+map<unsigned long, channel>::const_iterator ChannelManager::FindChannel(unsigned long nChannelNumber)
 {
     return m_mChannelNumber.find(nChannelNumber);
 }

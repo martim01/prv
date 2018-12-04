@@ -14,8 +14,8 @@
 			<object class="wmLabel" name="ID_M_PLBL1" variable="m_plblFilter" member="yes">
 				<label>Frequency</label>
 				<border>uiRect::BORDER_DOWN</border>
-				<pos>0,0</pos>
-				<size>280,45</size>
+				<pos>5,5</pos>
+				<size>270,40</size>
 				<bg>#FFFFFF</bg>
 			</object>
 			<object class="wmList" name="ID_M_PLST1" variable="m_plstChannels" member="yes">
@@ -63,8 +63,8 @@
 				<button_pressed>#FF8040</button_pressed>
 				<button_selected>#FF8000</button_selected>
 				<items />
-				<pos>0,90</pos>
-				<size>900,110</size>
+				<pos>0,35</pos>
+				<size>900,165</size>
 				<bg>#000000</bg>
 				<font>
 					<size>16</size>
@@ -81,7 +81,7 @@
 				<button_pressed>#804000</button_pressed>
 				<pos>910,92</pos>
 				<size>80,50</size>
-				<bg>#000000</bg>
+				<bg>#400000</bg>
 				<font>
 					<size>16</size>
 					<style>normal</style>
@@ -97,7 +97,7 @@
 				<button_pressed>#804000</button_pressed>
 				<pos>910,147</pos>
 				<size>80,50</size>
-				<bg>#000000</bg>
+				<bg>#400000</bg>
 				<font>
 					<size>16</size>
 					<style>normal</style>

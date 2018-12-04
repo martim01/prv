@@ -8,10 +8,11 @@
 #include <wx/panel.h>
 #include "wmlist.h"
 //*)
+#include "pmpanel.h"
 
 struct channel;
 
-class pnlPlayer: public wxPanel
+class pnlPlayer: public pmPanel
 {
 	public:
 
@@ -65,6 +66,9 @@ class pnlPlayer: public wxPanel
         size_t PopulateChannels();
 		size_t PopulateChannelNumber();
 		size_t PopulateChannelName();
+
+		void PlayProgram(unsigned long nProgram);
+
 
 
 		DECLARE_EVENT_TABLE()

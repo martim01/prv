@@ -4,6 +4,8 @@
 #include <climits>
 #include <wx/log.h>
 #include "channelmanager.h"
+#include "settingevent.h"
+#include "settings.h"
 #ifdef __WXGTK__
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
@@ -32,7 +34,7 @@ using namespace std;
 const long pnlPlayer::ID_PANEL2 = wxNewId();
 //*)
 
-BEGIN_EVENT_TABLE(pnlPlayer,wxPanel)
+BEGIN_EVENT_TABLE(pnlPlayer,pmPanel)
 	//(*EventTable(pnlPlayer)
 	//*)
 END_EVENT_TABLE()
@@ -44,7 +46,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	SetBackgroundColour(wxColour(0,0,0));
 	m_ppnlChannels = new wxPanel(this, ID_PANEL4, wxPoint(1000,0), wxSize(280,800), wxTAB_TRAVERSAL, _T("ID_PANEL4"));
 	m_ppnlChannels->SetBackgroundColour(wxColour(0,0,0));
-	m_plblFilter = new wmLabel(m_ppnlChannels, ID_M_PLBL1, _("Frequency"), wxPoint(0,0), wxSize(280,45), 0, _T("ID_M_PLBL1"));
+	m_plblFilter = new wmLabel(m_ppnlChannels, ID_M_PLBL1, _("Frequency"), wxPoint(5,5), wxSize(270,40), 0, _T("ID_M_PLBL1"));
 	m_plblFilter->SetBorderState(uiRect::BORDER_DOWN);
 	m_plblFilter->GetUiRect().SetGradient(0);
 	m_plblFilter->SetBackgroundColour(wxColour(255,255,255));
@@ -61,7 +63,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	m_pVlcPanel->SetBackgroundColour(wxColour(0,0,0));
 	m_ppnlFilter = new wxPanel(this, ID_PANEL2, wxPoint(0,600), wxSize(1000,200), wxTAB_TRAVERSAL, _T("ID_PANEL2"));
 	m_ppnlFilter->SetBackgroundColour(wxColour(0,0,0));
-	m_plstLetters = new wmList(m_ppnlFilter, ID_M_PLST3, wxPoint(0,90), wxSize(900,110), 0, 0, wxSize(-1,50), 13, wxSize(5,5));
+	m_plstLetters = new wmList(m_ppnlFilter, ID_M_PLST3, wxPoint(0,35), wxSize(900,165), 0, 0, wxSize(-1,50), 13, wxSize(5,5));
 	m_plstLetters->SetBackgroundColour(wxColour(0,0,0));
 	wxFont m_plstLettersFont(16,wxFONTFAMILY_SWISS,wxFONTSTYLE_NORMAL,wxFONTWEIGHT_NORMAL,false,_T("Arial"),wxFONTENCODING_DEFAULT);
 	m_plstLetters->SetFont(m_plstLettersFont);
@@ -69,12 +71,12 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	m_plstLetters->SetPressedButtonColour(wxColour(wxT("#FF8040")));
 	m_plstLetters->SetSelectedButtonColour(wxColour(wxT("#FF8000")));
 	m_pbtnBack = new wmButton(m_ppnlFilter, ID_M_PBTN1, _("Back"), wxPoint(910,92), wxSize(80,50), 0, wxDefaultValidator, _T("ID_M_PBTN1"));
-	m_pbtnBack->SetBackgroundColour(wxColour(0,0,0));
+	m_pbtnBack->SetBackgroundColour(wxColour(64,0,0));
 	wxFont m_pbtnBackFont(16,wxFONTFAMILY_SWISS,wxFONTSTYLE_NORMAL,wxFONTWEIGHT_NORMAL,false,_T("Arial"),wxFONTENCODING_DEFAULT);
 	m_pbtnBack->SetFont(m_pbtnBackFont);
 	m_pbtnBack->SetColourSelected(wxColour(wxT("#804000")));
 	m_pbtnClear = new wmButton(m_ppnlFilter, ID_M_PBTN2, _("Clear"), wxPoint(910,147), wxSize(80,50), 0, wxDefaultValidator, _T("ID_M_PBTN2"));
-	m_pbtnClear->SetBackgroundColour(wxColour(0,0,0));
+	m_pbtnClear->SetBackgroundColour(wxColour(64,0,0));
 	wxFont m_pbtnClearFont(16,wxFONTFAMILY_SWISS,wxFONTSTYLE_NORMAL,wxFONTWEIGHT_NORMAL,false,_T("Arial"),wxFONTENCODING_DEFAULT);
 	m_pbtnClear->SetFont(m_pbtnClearFont);
 	m_pbtnClear->SetColourSelected(wxColour(wxT("#804000")));
@@ -89,6 +91,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	//*)
 	m_plblFilter->SetTextAlign(wxALIGN_LEFT | wxALIGN_CENTER_VERTICAL);
 
+	m_plstChannels->SetBorderStyle(uiRect::BORDER_NONE);
 	m_plstChannels->SetTextAlign(wxALIGN_LEFT | wxALIGN_CENTER_VERTICAL);
 	m_plstSort->AddButton(wxT("Number"));
 	m_plstSort->AddButton(wxT("Name"));
@@ -97,33 +100,18 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	SetSize(size);
     SetPosition(pos);
 
-	m_ppnlChannels->Hide();
-	m_ppnlFilter->Hide();
-	m_pVlcPanel->SetSize(1280,800);
-
     m_pVlcPlayer = 0;
-    const char* const vlc_args[] = { "--no-xlib", "--vout", "mmal-xsplitter", "--mmal-opaque", "--mouse-hide-timeout","0"};
-	//setup vlc
-	//"--no-xlib"
-    //m_pVlcInst = libvlc_new(6, vlc_args);
-    m_pVlcInst = libvlc_new(0 NULL);
+    /*
+    const char* const vlc_args[] = {"--no-xlib", "--vout","mmal-xsplitter","--mmal-opaque","--mouse-hide-timeout","1"};
+    */
+
+    m_pVlcInst = libvlc_new(0, NULL);
     if(m_pVlcInst)
     {
         m_pVlcPlayer = libvlc_media_player_new(m_pVlcInst);
         if(m_pVlcPlayer)
         {
             m_pVlcEvtMan = libvlc_media_player_event_manager(m_pVlcPlayer);
-//            if(m_pVlcEvtMan)
-//            {
-//                libvlc_event_attach(m_pVlcEvtMan, libvlc_MediaPlayerEndReached, ::OnEndReached_VLC, NULL);
-//                libvlc_event_attach(m_pVlcEvtMan, libvlc_MediaPlayerPositionChanged, ::OnPositionChanged_VLC, NULL);
-//                Connect(wxID_ANY, vlcEVT_END, wxCommandEventHandler(MainWindow::OnEndReached_VLC));
-//                Connect(wxID_ANY, vlcEVT_POS, wxCommandEventHandler(MainWindow::OnPositionChanged_VLC));
-//            }
-//            else
-//            {
-//                wxLogDebug(wxT("Event Error: %s"), wxString::FromAscii(libvlc_errmsg()).c_str());
-//            }
             InitVlc();
         }
         else
@@ -136,10 +124,15 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
        wxLogDebug(wxT("VLC Error: %s"), wxString::FromAscii(libvlc_errmsg()).c_str());
     }
 
-    for(char c = 65; c < 91; c++)
+
+    m_plstSort->SelectButton(Settings::Get().Read(wxT("Channels"), wxT("Sort"), wxT("Name")), true);
+
+    unsigned long nProgram = Settings::Get().Read(wxT("Channels"), wxT("Current"), 0);
+    if(nProgram != 0)
     {
-        m_plstLetters->AddButton(wxString::Format(wxT("%C"), c));
+        PlayProgram(nProgram);
     }
+
 
 }
 
@@ -228,9 +221,16 @@ void pnlPlayer::OnLeftUp(wxMouseEvent& event)
 
 void pnlPlayer::OnlstChannelsSelected(wxCommandEvent& event)
 {
-    map<size_t, channel>::const_iterator itChannel = ChannelManager::Get().FindChannel(reinterpret_cast<size_t>(event.GetClientData()));
+    PlayProgram(reinterpret_cast<unsigned long>(event.GetClientData()));
+}
+
+void pnlPlayer::PlayProgram(unsigned long nProgram)
+{
+    map<unsigned long, channel>::const_iterator itChannel = ChannelManager::Get().FindChannel(nProgram);
     if(itChannel != ChannelManager::Get().GetChannelNumberEnd())
     {
+        Settings::Get().Write(wxT("Channels"), wxT("Current"), (int)itChannel->first);
+
         PlayLocation(itChannel->second);
 
         m_pVlcPanel->SetSize(1280,800);
@@ -241,6 +241,8 @@ void pnlPlayer::OnlstChannelsSelected(wxCommandEvent& event)
 
 void pnlPlayer::OnlstSortSelected(wxCommandEvent& event)
 {
+    Settings::Get().Write(wxT("Channels"), wxT("Sort"), event.GetString());
+
     m_plblFilter->SetLabel(wxEmptyString);
     if(event.GetString() == wxT("Number"))
     {
@@ -258,22 +260,23 @@ void pnlPlayer::OnlstSortSelected(wxCommandEvent& event)
 size_t pnlPlayer::PopulateChannelNumber()
 {
 
-    for(map<size_t, channel>::const_iterator itChannel = ChannelManager::Get().GetChannelNumberBegin(); itChannel != ChannelManager::Get().GetChannelNumberEnd(); ++itChannel)
+    for(map<unsigned long, channel>::const_iterator itChannel = ChannelManager::Get().GetChannelNumberBegin(); itChannel != ChannelManager::Get().GetChannelNumberEnd(); ++itChannel)
     {
         wxString sChannel(wxString::Format(wxT("%03d"), itChannel->first));
         if(m_plblFilter->GetLabel().empty() || sChannel.Left(min(m_plblFilter->GetLabel().length(), sChannel.length())) == m_plblFilter->GetLabel().Left(min(m_plblFilter->GetLabel().length(), sChannel.length())))
         {
-            m_plstChannels->AddButton(wxString::Format(wxT("%03d %s"), itChannel->first, itChannel->second.sName.c_str()), wxNullBitmap, reinterpret_cast<void*>(itChannel->first));
+            m_plstChannels->AddButton(wxString::Format(wxT("%03d  %s"), itChannel->first, itChannel->second.sName.c_str()), wxNullBitmap, reinterpret_cast<void*>(itChannel->first));
         }
     }
 
     m_plstLetters->Freeze();
     m_plstLetters->Clear();
 
-    for(char c = 48; c < 58; c++)
+    for(char c = 49; c < 58; c++)
     {
         m_plstLetters->AddButton(wxString::Format(wxT("%C"), c));
     }
+    m_plstLetters->AddButton(wxT("0"));
     m_plstLetters->Thaw();
 
     return m_plstChannels->GetItemCount();
@@ -285,6 +288,7 @@ size_t pnlPlayer::PopulateChannelName()
     {
         wxString sChannel(itChannel->first);
         sChannel.Replace(wxT(" "), wxEmptyString);
+        sChannel.MakeUpper();
 
         if(m_plblFilter->GetLabel().empty() || sChannel.Left(min(m_plblFilter->GetLabel().length(), sChannel.length())) == m_plblFilter->GetLabel().Left(min(m_plblFilter->GetLabel().length(), sChannel.length())))
         {
@@ -294,6 +298,16 @@ size_t pnlPlayer::PopulateChannelName()
     }
     m_plstLetters->Freeze();
     m_plstLetters->Clear();
+
+    for(char c = 49; c < 58; c++)
+    {
+        m_plstLetters->AddButton(wxString::Format(wxT("%C"), c));
+    }
+    m_plstLetters->AddButton(wxT("0"));
+    for(int i = 0; i < 3; i++)
+    {
+        m_plstLetters->AddButton(wxEmptyString, wxNullBitmap, 0, wmList::wmHIDDEN);
+    }
     for(char c = 65; c < 91; c++)
     {
         m_plstLetters->AddButton(wxString::Format(wxT("%C"), c));

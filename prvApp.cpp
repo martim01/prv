@@ -8,6 +8,8 @@
  **************************************************************/
 
 #include "prvApp.h"
+#include "settings.h"
+#include <wx/stdpaths.h>
 
 //(*AppHeaders
 #include "prvMain.h"
@@ -18,6 +20,8 @@ IMPLEMENT_APP(prvApp);
 
 bool prvApp::OnInit()
 {
+    Settings::Get().ReadSettings(wxString::Format(wxT("%s/prv/prv.ini"), wxStandardPaths::Get().GetDocumentsDir().c_str()));
+
     //(*AppInitialize
     bool wxsOK = true;
     wxInitAllImageHandlers();
