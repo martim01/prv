@@ -102,9 +102,11 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	m_pVlcPanel->SetSize(1280,800);
 
     m_pVlcPlayer = 0;
+    const char* const vlc_args[] = { "--no-xlib", "--vout", "mmal-xsplitter", "--mmal-opaque", "--mouse-hide-timeout","0"};
 	//setup vlc
 	//"--no-xlib"
-    m_pVlcInst = libvlc_new(0, NULL);
+    //m_pVlcInst = libvlc_new(6, vlc_args);
+    m_pVlcInst = libvlc_new(0 NULL);
     if(m_pVlcInst)
     {
         m_pVlcPlayer = libvlc_media_player_new(m_pVlcInst);
