@@ -111,16 +111,18 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
     }
     if(aChannel.sLocation.empty() == false)
     {
-        if(aChannel.nNumber != 0)
+        if(aChannel.nNumber == 0)
         {
-            if(m_mChannelNumber.insert(make_pair(aChannel.nNumber, aChannel)).second == false)
-            {
-                wxLogDebug(wxT("Duplicate channel number %d = %s"), aChannel.nNumber, aChannel.sName.c_str());
-            }
-            if(m_mChannelName.insert(make_pair(aChannel.sName, aChannel)).second == false)
-            {
-                wxLogDebug(wxT("Duplicate channel name %d = %s"), aChannel.nNumber, aChannel.sName.c_str());
-            }
+            aChannel.nNumber = m_nUnknown;
+            ++m_nUnknown;
+        }
+        if(m_mChannelNumber.insert(make_pair(aChannel.nNumber, aChannel)).second == false)
+        {
+            wxLogDebug(wxT("Duplicate channel number %d = %s"), aChannel.nNumber, aChannel.sName.c_str());
+        }
+        if(m_mChannelName.insert(make_pair(aChannel.sName, aChannel)).second == false)
+        {
+            wxLogDebug(wxT("Duplicate channel name %d = %s"), aChannel.nNumber, aChannel.sName.c_str());
         }
     }
 }
@@ -129,4 +131,41 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
 map<unsigned long, channel>::const_iterator ChannelManager::FindChannel(unsigned long nChannelNumber)
 {
     return m_mChannelNumber.find(nChannelNumber);
+}
+
+
+bool ChannelManager::SaveDVBList(const wxFileName& fnDoc)
+{
+    wxXmlNode* pRoot = new wxXmlNode(wxXML_ELEMENT_NODE, wxT("channels"));
+
+    for(map<unsigned long, channel>::iterator itChannel = m_mChannelNumber.begin(); itChannel != m_mChannelNumber.end(); ++itChannel)
+    {
+        wxXmlNode* pChannelNode = new wxXmlNode(wxXML_ELEMENT_NODE, wxT("channel"));
+        wxXmlNode* pNumberNode = CreateTextNode(wxT("number"), wxString::Format(wxT("%03d"), itChannel->first));
+        wxXmlNode* pNameNode = CreateTextNode(wxT("name"), itChannel->second.sName);
+        wxXmlNode* pLocationNode = CreateTextNode(wxT("location"), itChannel->second.sLocation);
+
+        wxXmlNode* pOptionNodes = new wxXmlNode(wxXML_ELEMENT_NODE, wxT("options"));
+        for(list<wxString>::iterator itOption = itChannel->second.lstOptions.begin(); itOption != itChannel->second.lstOptions.end(); ++itOption)
+        {
+            pOptionNodes->AddChild(CreateTextNode((*itOption).BeforeFirst(wxT('=')), (*itOption).AfterFirst(wxT('='))));
+        }
+        pChannelNode->AddChild(pNameNode);
+        pChannelNode->AddChild(pNumberNode);
+        pChannelNode->AddChild(pLocationNode);
+        pChannelNode->AddChild(pOptionNodes);
+
+        pRoot->AddChild(pChannelNode);
+    }
+
+    wxXmlDocument xmlDoc;
+    xmlDoc.SetRoot(pRoot);
+    xmlDoc.Save(fnDoc.GetFullPath());
+}
+
+wxXmlNode* ChannelManager::CreateTextNode(const wxString& sNode, const wxString& sContent)
+{
+    wxXmlNode* pNameNode = new wxXmlNode(wxXML_ELEMENT_NODE, sNode);
+    pNameNode->AddChild(new wxXmlNode(wxXML_TEXT_NODE, wxEmptyString, sContent));
+    return pNameNode;
 }

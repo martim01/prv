@@ -6,6 +6,7 @@
 #include "channelmanager.h"
 #include "settingevent.h"
 #include "settings.h"
+#include "icons/backspace.xpm"
 #ifdef __WXGTK__
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
@@ -70,8 +71,8 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	m_plstLetters->SetButtonColour(wxColour(wxT("#000000")));
 	m_plstLetters->SetPressedButtonColour(wxColour(wxT("#FF8040")));
 	m_plstLetters->SetSelectedButtonColour(wxColour(wxT("#FF8000")));
-	m_pbtnBack = new wmButton(m_ppnlFilter, ID_M_PBTN1, _("Back"), wxPoint(910,92), wxSize(80,50), 0, wxDefaultValidator, _T("ID_M_PBTN1"));
-	m_pbtnBack->SetBackgroundColour(wxColour(64,0,0));
+	m_pbtnBack = new wmButton(m_ppnlFilter, ID_M_PBTN1, wxEmptyString, wxPoint(910,92), wxSize(80,50), 0, wxDefaultValidator, _T("ID_M_PBTN1"));
+	m_pbtnBack->SetBackgroundColour(wxColour(0,0,0));
 	wxFont m_pbtnBackFont(16,wxFONTFAMILY_SWISS,wxFONTSTYLE_NORMAL,wxFONTWEIGHT_NORMAL,false,_T("Arial"),wxFONTENCODING_DEFAULT);
 	m_pbtnBack->SetFont(m_pbtnBackFont);
 	m_pbtnBack->SetColourSelected(wxColour(wxT("#804000")));
@@ -99,6 +100,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 
 	SetSize(size);
     SetPosition(pos);
+    m_pbtnBack->SetBitmapLabel(wxBitmap(backspace_xpm));
 
     m_pVlcPlayer = 0;
     /*

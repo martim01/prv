@@ -28,16 +28,21 @@ class ChannelManager
 
         std::map<unsigned long, channel>::const_iterator FindChannel(unsigned long nChannelNumber);
 
+        bool SaveDVBList(const wxFileName& dfnDoc);
 
     private:
-        ChannelManager(){}
+        ChannelManager() : m_nUnknown(1000){}
         ~ChannelManager();
 
         void DeleteAllChannels();
 
         void LoadDVBChannel(wxXmlNode* pChannelNode);
 
+        wxXmlNode* CreateTextNode(const wxString& sNode, const wxString& sContent);
 
         std::map<unsigned long, channel> m_mChannelNumber;
         std::map<wxString, channel> m_mChannelName;
+
+
+        unsigned long m_nUnknown;
 };

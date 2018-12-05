@@ -76,6 +76,7 @@ prvDialog::prvDialog(wxWindow* parent,wxWindowID id)
 
 
     ChannelManager::Get().LoadDVBList(wxFileName(wxT("channels.xml")));
+    ChannelManager::Get().SaveDVBList(wxFileName(wxT("prv_channels.xml")));
 
 
 }
