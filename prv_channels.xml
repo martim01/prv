@@ -13,6 +13,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4164</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC TWO</name>
@@ -27,6 +33,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4287</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>ITV1 London</name>
@@ -41,6 +53,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8261</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Channel 4</name>
@@ -55,6 +73,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8384</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>Channel 5</name>
@@ -69,7 +92,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8500</program>
     </options>
-  </channel>
+    <tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
+</channel>
   <channel>
     <name>BBC NEWS</name>
     <number>106</number>
@@ -83,6 +112,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6405</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Quad 1</name>
@@ -97,6 +132,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2061</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Multi</tag>
+		<tag>Internal</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC World News</name>
@@ -111,6 +152,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8204</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>Sky News</name>
@@ -125,6 +173,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>22080</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>CNN Int.</name>
@@ -139,6 +193,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>50220</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Al Jazeera English</name>
@@ -153,6 +213,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1714</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>International</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Parliament</name>
@@ -167,6 +234,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4736</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>BBC</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>Euronews</name>
@@ -181,6 +254,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8211</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Bloomberg</name>
@@ -195,6 +274,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>52550</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Quad 2</name>
@@ -209,6 +294,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1061</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Internal</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>France 24 HD (in English)</name>
@@ -223,6 +314,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13850</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>International</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>CNBC PE Hot</name>
@@ -237,6 +335,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7463</program>
     </options>
+		<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>International</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Agency Quad 3</name>
@@ -251,6 +356,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2062</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Agency</tag>
+		<tag>Internal</tag>
+	</tags>
   </channel>
   <channel>
     <name>Reuters</name>
@@ -265,6 +376,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2027</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>EBU PEN</name>
@@ -279,6 +396,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1026</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>US Nets</name>
@@ -293,6 +417,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2026</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Quad 4</name>
@@ -307,6 +438,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1062</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Internal</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Channel ISO</name>
@@ -321,6 +458,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2029</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Internal</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Quad 5</name>
@@ -335,6 +477,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2063</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Internal</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC FOUR+15</name>
@@ -349,6 +497,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14544</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Internal</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>Newswire Multi</name>
@@ -363,6 +517,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2035</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>News</tag>
+		<tag>Internal</tag>
+		<tag>International</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>ITV2</name>
@@ -377,6 +538,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8325</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>ITV3</name>
@@ -391,6 +557,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>16048</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>E4</name>
@@ -405,8 +577,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8448</program>
     </options>
+		<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
-  <channel>
+   <channel>
     <name>More 4</name>
     <number>167</number>
     <location>dvb-t://frequency=498000000</location>
@@ -419,6 +597,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8442</program>
     </options>
+		<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>ITV4</name>
@@ -433,6 +617,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>28032</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>Film4</name>
@@ -447,7 +637,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8385</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
+  
   <channel>
     <name>CBBC</name>
     <number>181</number>
@@ -461,6 +658,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4608</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>Children</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>CBeebies</name>
@@ -475,6 +679,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4672</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>Children</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC One HD</name>
@@ -489,6 +699,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6941</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>HD</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Two HD</name>
@@ -503,6 +720,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6940</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>HD</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC NEWS HD</name>
@@ -517,6 +741,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8921</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>HD</tag>
+		<tag>News</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>CBBC HD</name>
@@ -531,6 +763,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6952</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>HD</tag>
+		<tag>BBC</tag>
+		<tag>Children</tag>
+	</tags>
   </channel>
   <channel>
     <name>CBeebies HD</name>
@@ -545,6 +785,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8932</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>Off Air</tag>
+		<tag>HD</tag>
+		<tag>BBC</tag>
+		<tag>Children</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Red Button</name>
@@ -559,6 +807,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4416</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Main</tag>
+		<tag>BBC</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 01</name>
@@ -573,6 +827,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1050</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 2</name>
@@ -587,6 +846,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2208</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 03</name>
@@ -601,6 +865,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1051</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 4</name>
@@ -615,6 +884,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2209</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 05 </name>
@@ -629,6 +903,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1052</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 07 </name>
@@ -643,6 +922,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1053</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>Rx Book 1</name>
@@ -657,6 +941,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2054</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Routable</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>Rx Book 2</name>
@@ -671,6 +960,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2055</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Routable</tag>
+		<tag>Off Air</tag>
+	</tags>
   </channel>
   <channel>
     <name>Rx Book 4</name>
@@ -685,6 +979,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1054</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>Rx Book 5</name>
@@ -699,6 +998,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1055</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>Rx Book 3</name>
@@ -713,6 +1017,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2056</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS TV Quad 1</name>
@@ -727,6 +1036,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>193</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS TV Quad 2</name>
@@ -741,6 +1056,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>194</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS TV Quad 3</name>
@@ -755,6 +1076,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>195</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>Dehli 5</name>
@@ -769,6 +1096,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>196</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Dehli 6</name>
@@ -783,6 +1116,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>197</program>
     </options>
+		<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Nairobi NRB1</name>
@@ -797,6 +1136,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>198</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>LDN 2</name>
@@ -811,6 +1156,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1301</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>London</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>LDN RX3</name>
@@ -825,6 +1176,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1102</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>London</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>MCR Test Encoder</name>
@@ -839,6 +1196,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>139</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Test</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Insight</name>
@@ -853,6 +1216,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1101</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC ONE (back-up)</name>
@@ -867,6 +1235,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14164</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>Main</tag>
+		<tag>BackUp</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC TWO (back-up)</name>
@@ -881,6 +1256,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14287</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>Main</tag>
+		<tag>BackUp</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC NEWS (back-up)</name>
@@ -895,6 +1277,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14352</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>BBC</tag>
+		<tag>Off Air</tag>
+		<tag>Main</tag>
+		<tag>BackUp</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Parliament (back-up)</name>
@@ -909,6 +1299,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14736</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>News</tag>
+		<tag>BBC</tag>
+		<tag>BackUp</tag>
+	</tags>
   </channel>
   <channel>
     <name>CBBC (back-up)</name>
@@ -923,6 +1320,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14608</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+		<tag>Main</tag>
+		<tag>Children</tag>
+		<tag>BackUp</tag>
+	</tags>
   </channel>
   <channel>
     <name>CBeebies (back-up)</name>
@@ -937,6 +1342,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14672</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>Main</tag>
+		<tag>Children</tag>
+		<tag>BackUp</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Arabic TV</name>
@@ -951,6 +1363,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13919</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>World Service</tag>
+		<tag>Arabic</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>AL Arabia HD</name>
@@ -965,6 +1384,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>9513</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>HD</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+	</tags>
   </channel>
   <channel>
     <name>LBC Int (Lebanon)</name>
@@ -979,6 +1406,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>11206</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>Arabic</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Future TV</name>
@@ -993,6 +1427,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>245</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>ABN TV</name>
@@ -1007,6 +1448,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>52111</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Al Jazeera</name>
@@ -1021,6 +1469,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1820</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Qatar TV</name>
@@ -1035,6 +1490,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5002</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Al EKhbaria</name>
@@ -1049,6 +1511,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2604</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Saudi 1</name>
@@ -1063,6 +1532,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>104</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>2M Monde</name>
@@ -1077,6 +1553,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1705</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Medi1SAT</name>
@@ -1091,6 +1574,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Al Aoula</name>
@@ -1105,6 +1595,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Al Hurra</name>
@@ -1119,6 +1616,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>28</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Iraqia News</name>
@@ -1133,6 +1637,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>9</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Arabic</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>AL SHARQIYA NEWS</name>
@@ -1147,6 +1659,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5003</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>Tunisia 1</name>
@@ -1161,6 +1681,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7202</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>CANAL ALGERIE</name>
@@ -1175,6 +1702,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13950</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>ESC</name>
@@ -1189,6 +1723,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5008</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Kuwait Space Channel</name>
@@ -1203,6 +1744,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Al Alam News Channel</name>
@@ -1217,6 +1765,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>3001</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>Sudan TV</name>
@@ -1231,6 +1787,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Jordan TV (AL Ordoniyah)</name>
@@ -1245,6 +1808,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>40</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>OMAN TV HD</name>
@@ -1259,6 +1829,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7007</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>HD</tag>
+	</tags>
   </channel>
   <channel>
     <name>Rai News 24</name>
@@ -1273,6 +1851,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>8516</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>Dubai TV</name>
@@ -1287,6 +1873,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>9501</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Bahrain TV HD</name>
@@ -1301,6 +1894,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>103</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>HD</tag>
+	</tags>
   </channel>
   <channel>
     <name>Sky News Arabia</name>
@@ -1315,6 +1916,14 @@
       <dvb-guard>1/32</dvb-guard>
       <program>25</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Arabic</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Persian</name>
@@ -1329,6 +1938,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5001</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Off Air</tag>
+		<tag>World Service</tag>
+		<tag>Persian</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>IRINN</name>
@@ -1343,6 +1959,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7905</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Persian</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>PRESS TV HD</name>
@@ -1357,6 +1980,15 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7944</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Persian</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+		<tag>HD</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>n-tv</name>
@@ -1371,6 +2003,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>12090</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Persian</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>IRIB 1 (Line Feed)</name>
@@ -1385,6 +2024,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1028</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Persian</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>IRIB 2 (Line Feed)</name>
@@ -1399,6 +2045,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2028</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Persian</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Telegram TV</name>
@@ -1413,6 +2066,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>17650</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Persian</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Ariana Afghanistan</name>
@@ -1427,6 +2087,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4674</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Persian</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>TRT ETTURKIYYE</name>
@@ -1441,6 +2108,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>24</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Turkey</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>CNN TURK</name>
@@ -1455,6 +2129,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>15</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Turkey</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Dozhd TV</name>
@@ -1469,6 +2150,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>270</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Turkey</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>RTR</name>
@@ -1483,6 +2171,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4420</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>East Europe</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>ROSSIYA24</name>
@@ -1497,6 +2192,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1710</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>East Europe</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>TVE INTERNACIONAL EUROPA</name>
@@ -1511,6 +2213,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4501</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Europe</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>CANAL 24 HORAS</name>
@@ -1525,6 +2234,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4402</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Europe</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>TV 5 Europe</name>
@@ -1539,6 +2255,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7322</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Europe</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCTV-4</name>
@@ -1553,6 +2276,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>7224</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Far East</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>PCNE Chinese</name>
@@ -1567,6 +2297,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>50878</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Far East</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>TV Globo</name>
@@ -1581,6 +2318,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2080</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Far East</tag>
+		<tag>Commercial</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>TELESUR</name>
@@ -1595,6 +2339,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13737</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Commercial</tag>
+		<tag>Far East</tag>
+		<tag>Off Air</tag>
+		<tag>International</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio A</name>
@@ -1609,6 +2360,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1038</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio B</name>
@@ -1623,6 +2379,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2038</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio C</name>
@@ -1637,6 +2398,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1039</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio D</name>
@@ -1651,6 +2417,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2039</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio E </name>
@@ -1665,6 +2436,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1040</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio F</name>
@@ -1679,6 +2455,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2040</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio G</name>
@@ -1693,6 +2474,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1041</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio H</name>
@@ -1707,6 +2493,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2041</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio J</name>
@@ -1721,6 +2512,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1042</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio K</name>
@@ -1735,6 +2531,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2042</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio L</name>
@@ -1749,6 +2550,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1057</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio M</name>
@@ -1763,6 +2569,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2057</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio P</name>
@@ -1777,6 +2588,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1058</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>MRM Main TV Studio</name>
@@ -1791,6 +2607,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1066</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>MRM Main TV Studio</name>
@@ -1805,6 +2626,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6001</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio 34D ATV</name>
@@ -1819,6 +2645,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1036</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>World Service</tag>
+		<tag>Arabic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio 44D ATV</name>
@@ -1833,6 +2666,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2036</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>World Service</tag>
+		<tag>Arabic</tag>
+	</tags>
   </channel>
   <channel>
     <name>ATV Pres</name>
@@ -1847,6 +2687,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2037</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>World Service</tag>
+		<tag>Arabic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio 54D PTV </name>
@@ -1861,6 +2708,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1037</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>Persian</tag>
+	</tags>
   </channel>
   <channel>
     <name>Langham Cam</name>
@@ -1875,6 +2728,10 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1074</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio A OS Multi</name>
@@ -1889,6 +2746,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2064</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio B OS Multi</name>
@@ -1903,6 +2766,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1059</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio C OS Multi</name>
@@ -1917,6 +2786,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1060</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio E OS Multi</name>
@@ -1931,6 +2806,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1064</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>Multi</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LA</name>
@@ -1945,6 +2826,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1043</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LB</name>
@@ -1959,6 +2845,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2043</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LD</name>
@@ -1973,6 +2864,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2044</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LE</name>
@@ -1987,6 +2883,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1045</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LF</name>
@@ -2001,6 +2902,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2045</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LG </name>
@@ -2015,6 +2921,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1046</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LK</name>
@@ -2029,6 +2940,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2047</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LJ </name>
@@ -2043,6 +2959,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1047</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LH</name>
@@ -2057,6 +2978,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2046</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LL </name>
@@ -2071,6 +2997,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1048</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LM</name>
@@ -2085,6 +3016,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2048</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LN </name>
@@ -2099,6 +3035,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1049</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite LP</name>
@@ -2113,6 +3054,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2049</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite 2A</name>
@@ -2127,6 +3073,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>3066</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite 2B</name>
@@ -2141,6 +3092,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2067</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite 2C</name>
@@ -2155,6 +3111,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1067</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite 3A</name>
@@ -2169,6 +3130,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1068</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>Edit Suite 3B</name>
@@ -2183,6 +3149,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2068</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Edit</tag>
+	</tags>
   </channel>
   <channel>
     <name>OnDemand Quad</name>
@@ -2197,6 +3168,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1069</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Multi</tag>
+		<tag>Online</tag>
+	</tags>
   </channel>
   <channel>
     <name>OnDemand 1</name>
@@ -2211,6 +3188,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1070</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Online</tag>
+	</tags>
   </channel>
   <channel>
     <name>OnDemand 2</name>
@@ -2225,6 +3207,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2069</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Online</tag>
+	</tags>
   </channel>
   <channel>
     <name>OnDemand 3</name>
@@ -2239,6 +3226,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1071</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Online</tag>
+	</tags>
   </channel>
   <channel>
     <name>OnDemand 4</name>
@@ -2253,6 +3245,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2070</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Online</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package Guide</name>
@@ -2267,6 +3264,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2237</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 01 </name>
@@ -2281,6 +3283,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1001</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 02</name>
@@ -2295,6 +3302,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2001</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 03 </name>
@@ -2309,6 +3321,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1002</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 04</name>
@@ -2323,6 +3340,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2002</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 05 </name>
@@ -2337,6 +3359,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1003</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 06</name>
@@ -2351,6 +3378,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2003</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 07 </name>
@@ -2365,6 +3397,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1004</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 08</name>
@@ -2379,6 +3416,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2004</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 09</name>
@@ -2393,6 +3435,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1005</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 10</name>
@@ -2407,6 +3454,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2005</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 11</name>
@@ -2421,6 +3473,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1006</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 12</name>
@@ -2435,6 +3492,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2006</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 13 </name>
@@ -2449,6 +3511,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1007</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 14</name>
@@ -2463,6 +3530,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2007</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 15 </name>
@@ -2477,6 +3549,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1008</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 16</name>
@@ -2491,6 +3568,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2008</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 17 </name>
@@ -2505,6 +3587,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1009</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 18</name>
@@ -2519,6 +3606,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2009</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 19 </name>
@@ -2533,6 +3625,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1010</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 20</name>
@@ -2547,6 +3644,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2010</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 21 </name>
@@ -2561,6 +3663,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1011</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 22</name>
@@ -2575,6 +3682,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2011</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 23</name>
@@ -2589,6 +3701,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1012</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 24</name>
@@ -2603,6 +3720,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2012</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 25 </name>
@@ -2617,6 +3739,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1013</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 26</name>
@@ -2631,6 +3758,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2013</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 27 </name>
@@ -2645,6 +3777,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1014</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 28</name>
@@ -2659,6 +3796,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2014</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 29 </name>
@@ -2673,6 +3815,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1015</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 30</name>
@@ -2687,6 +3834,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2015</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 31 </name>
@@ -2701,6 +3853,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1016</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 32</name>
@@ -2715,6 +3872,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2016</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 33 </name>
@@ -2729,6 +3891,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1017</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 34</name>
@@ -2743,6 +3910,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2017</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 35 </name>
@@ -2757,6 +3929,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1018</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 36 </name>
@@ -2771,6 +3948,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2018</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 37 </name>
@@ -2785,6 +3967,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1019</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 38</name>
@@ -2799,6 +3986,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2019</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 39 </name>
@@ -2813,6 +4005,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1020</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 40</name>
@@ -2827,6 +4024,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2020</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 41 </name>
@@ -2841,6 +4043,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1021</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 43 </name>
@@ -2855,6 +4062,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1022</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 45 </name>
@@ -2869,6 +4081,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1023</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 47 </name>
@@ -2883,6 +4100,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1024</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 49 </name>
@@ -2897,6 +4119,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1025</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 51 </name>
@@ -2911,6 +4138,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1030</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 52</name>
@@ -2925,6 +4157,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2030</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 53</name>
@@ -2939,6 +4176,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1031</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 54</name>
@@ -2953,6 +4195,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2031</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 55</name>
@@ -2967,6 +4214,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1032</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 56</name>
@@ -2981,6 +4233,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2032</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 57</name>
@@ -2995,6 +4252,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1033</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 58</name>
@@ -3009,6 +4271,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2033</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 59</name>
@@ -3023,6 +4290,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1034</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>News Package 60</name>
@@ -3037,6 +4309,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1103</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>News Package</tag>
+	</tags>
   </channel>
   <channel>
     <name>Mill 11 (Studio 1)</name>
@@ -3051,6 +4328,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1035</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Millbank</tag>
+	</tags>
   </channel>
   <channel>
     <name>Mill 5 (TX)</name>
@@ -3065,6 +4347,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1063</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>Millbank</tag>
+	</tags>
   </channel>
   <channel>
     <name>CAV 505</name>
@@ -3079,6 +4366,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2034</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+	</tags>
   </channel>
   <channel>
     <name>CAV 506</name>
@@ -3093,6 +4385,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2058</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Marathi</name>
@@ -3107,6 +4404,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2059</program>
     </options>
+	<tags>
+		<tag>Video</tag>
+		<tag>Internal</tag>
+		<tag>World Service</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 1</name>
@@ -3121,6 +4424,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6720</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 2</name>
@@ -3135,6 +4444,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6784</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 3</name>
@@ -3149,6 +4464,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6848</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 4</name>
@@ -3163,6 +4484,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6912</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+		<tag>National</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC R5L</name>
@@ -3177,6 +4504,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5632</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+		<tag>National</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC 6 Music</name>
@@ -3191,6 +4524,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5760</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+		<tag>National</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 4 Ex</name>
@@ -3205,6 +4544,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5824</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>BBC</tag>
+		<tag>National</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asian Net.</name>
@@ -3219,6 +4564,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5952</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC R1X</name>
@@ -3233,6 +4584,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>5888</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 4 LW</name>
@@ -3247,6 +4604,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2206</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC R5 Sports Extra DAB</name>
@@ -3261,6 +4624,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2207</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC World Sv.</name>
@@ -3275,6 +4644,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6016</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio London</name>
@@ -3289,6 +4664,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>6148</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Regions</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC London</name>
@@ -3303,6 +4684,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1206</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Regions</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>LBC 97.3</name>
@@ -3317,6 +4704,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1201</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>LBC 1152</name>
@@ -3331,6 +4723,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2201</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Talk 1053</name>
@@ -3345,6 +4742,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2202</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Capital FM</name>
@@ -3359,6 +4761,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1202</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Classic FM</name>
@@ -3373,6 +4780,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1203</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>X FM</name>
@@ -3387,6 +4799,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1204</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Capital AM</name>
@@ -3401,6 +4818,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2203</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Absolute Radio</name>
@@ -3415,6 +4837,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>14688</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Kiss FM</name>
@@ -3429,6 +4856,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1205</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>Jazz FM</name>
@@ -3443,6 +4875,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2205</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>Commercial</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Worl(back-up)</name>
@@ -3457,6 +4894,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>16016</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BackUp</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Radio 1 (back-up)</name>
@@ -3471,6 +4915,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>16720</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Off Air</tag>
+		<tag>National</tag>
+		<tag>BackUp</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>NewsFlash</name>
@@ -3485,6 +4936,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1234</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 1</name>
@@ -3499,6 +4955,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1228</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 2</name>
@@ -3513,6 +4974,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2228</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 3 </name>
@@ -3527,6 +4993,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1229</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 4</name>
@@ -3541,6 +5012,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2229</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 5</name>
@@ -3555,6 +5031,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1230</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 6</name>
@@ -3569,6 +5050,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2230</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 7 </name>
@@ -3583,6 +5069,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1231</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 8</name>
@@ -3597,6 +5088,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2231</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 9</name>
@@ -3611,6 +5107,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1232</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Traffic Line 10</name>
@@ -3625,6 +5126,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2232</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Traffic</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop L1</name>
@@ -3639,6 +5145,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1214</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop L2</name>
@@ -3653,6 +5164,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2213</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop L3</name>
@@ -3667,6 +5183,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1215</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop L4</name>
@@ -3681,6 +5202,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2214</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 21</name>
@@ -3695,6 +5221,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1216</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 22</name>
@@ -3709,6 +5240,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2215</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 23</name>
@@ -3723,6 +5259,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1221</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 24</name>
@@ -3737,6 +5278,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2216</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 31 </name>
@@ -3751,6 +5297,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1220</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 32</name>
@@ -3765,6 +5316,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2219</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 33</name>
@@ -3779,6 +5335,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1235</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Workshop 34</name>
@@ -3793,6 +5354,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2220</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>News LOC 33N</name>
@@ -3807,6 +5373,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1222</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S31</name>
@@ -3821,6 +5392,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1211</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S32</name>
@@ -3835,6 +5411,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2211</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S33</name>
@@ -3849,6 +5430,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1212</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S34</name>
@@ -3863,6 +5449,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2212</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio SL1</name>
@@ -3877,6 +5468,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1213</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S42</name>
@@ -3891,6 +5487,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2221</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S43 </name>
@@ -3905,6 +5506,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1223</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S44</name>
@@ -3919,6 +5525,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2222</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S45 </name>
@@ -3933,6 +5544,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1224</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S46</name>
@@ -3947,6 +5563,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2223</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S47</name>
@@ -3961,6 +5582,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1225</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Studio S48</name>
@@ -3975,6 +5601,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2224</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Commons</name>
@@ -3989,6 +5620,9 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1227</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+	</tags>
   </channel>
   <channel>
     <name>Lords</name>
@@ -4003,6 +5637,9 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2227</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS Routable 1 </name>
@@ -4017,6 +5654,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1226</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS Routable 2</name>
@@ -4031,6 +5673,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2225</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS Routable 3</name>
@@ -4045,6 +5692,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1236</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>WS Routable 4</name>
@@ -4059,6 +5711,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2226</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>NewsBeat Workshop 1</name>
@@ -4073,6 +5730,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1217</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>NewsBeat Workshop 2</name>
@@ -4087,6 +5750,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2217</program>
     </options>
+<tags>
+			<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>NewsBeat Dub Desk</name>
@@ -4101,6 +5770,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1218</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>NewsBeat Workshop OS1</name>
@@ -4115,6 +5790,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2218</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>NewsBeat Workshop OS2 </name>
@@ -4129,6 +5810,12 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1219</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Studio</tag>
+		<tag>News</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 1 </name>
@@ -4143,6 +5830,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1208</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 02</name>
@@ -4157,6 +5849,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2050</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 3 </name>
@@ -4171,6 +5868,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>1209</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 04</name>
@@ -4185,6 +5887,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2051</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 06</name>
@@ -4199,6 +5906,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2052</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>CCR Bookable 08</name>
@@ -4213,6 +5925,11 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2053</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Routable</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (E Af.)</name>
@@ -4227,6 +5944,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13901</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (W Af.)</name>
@@ -4241,6 +5965,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13902</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (Amer.)</name>
@@ -4255,6 +5986,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13903</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (E Asia)</name>
@@ -4269,6 +6007,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13904</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (S Asia)</name>
@@ -4283,6 +6028,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13905</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (Europe)</name>
@@ -4297,6 +6049,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13907</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English (Mid East)</name>
@@ -4311,6 +6070,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13908</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English Aus NZ</name>
@@ -4325,6 +6091,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13909</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English News</name>
@@ -4339,6 +6112,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13910</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Farsi</name>
@@ -4353,6 +6133,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13929</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC English_NR</name>
@@ -4367,6 +6154,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13913</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Arabic</name>
@@ -4381,6 +6175,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13916</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Amer Feed 3</name>
@@ -4395,6 +6196,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13997</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Amer Feed 4</name>
@@ -4409,6 +6217,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13998</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Bengali</name>
@@ -4423,6 +6238,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13924</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Burmese</name>
@@ -4437,6 +6259,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13926</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Dari</name>
@@ -4451,6 +6280,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13928</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC French (Africa)</name>
@@ -4465,6 +6301,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13930</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Hausa</name>
@@ -4479,6 +6322,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13932</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Hindi</name>
@@ -4493,6 +6343,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13933</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Indonesian</name>
@@ -4507,6 +6364,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13934</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Kirghiz</name>
@@ -4521,6 +6385,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13936</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Nepali</name>
@@ -4535,6 +6406,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13941</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Pashto</name>
@@ -4549,6 +6427,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13942</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afghan</name>
@@ -4563,6 +6448,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13943</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Great Lakes</name>
@@ -4577,6 +6469,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13931</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Tamil</name>
@@ -4591,6 +6490,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13962</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Sinhala</name>
@@ -4605,6 +6511,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13954</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Somali</name>
@@ -4619,6 +6532,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13955</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Swahili</name>
@@ -4633,6 +6553,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13960</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Tajik</name>
@@ -4647,6 +6574,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13961</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC China</name>
@@ -4661,6 +6595,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>2204</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Urdu</name>
@@ -4675,6 +6616,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13967</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Uzbek</name>
@@ -4689,6 +6637,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13968</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Eur Feed 1</name>
@@ -4703,6 +6658,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13971</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Eur Feed 2</name>
@@ -4717,6 +6679,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13972</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Eur Feed 3</name>
@@ -4731,6 +6700,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13973</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Eur Feed 4</name>
@@ -4745,6 +6721,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13974</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Eur Feed 5</name>
@@ -4759,6 +6742,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13975</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Eur Feed 6</name>
@@ -4773,6 +6763,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13976</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asia Feed 1</name>
@@ -4787,6 +6784,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13977</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asia Feed 2</name>
@@ -4801,6 +6805,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13978</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asia Feed 3</name>
@@ -4815,6 +6826,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13979</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asia Feed 4</name>
@@ -4829,6 +6847,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13980</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asia Feed 5</name>
@@ -4843,6 +6868,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13981</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Asia Feed 6</name>
@@ -4857,6 +6889,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13982</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 1</name>
@@ -4871,6 +6910,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13983</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 2</name>
@@ -4885,6 +6931,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13984</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 3</name>
@@ -4899,6 +6952,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13985</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 4</name>
@@ -4913,6 +6973,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13986</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 5</name>
@@ -4927,6 +6994,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13987</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 6</name>
@@ -4941,6 +7015,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13988</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 7</name>
@@ -4955,6 +7036,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13989</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Afr Feed 8</name>
@@ -4969,6 +7057,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13990</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Pac Feed 1</name>
@@ -4983,6 +7078,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13991</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Pac Feed 2</name>
@@ -4997,6 +7099,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13992</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Pac Feed 3</name>
@@ -5011,6 +7120,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13993</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Pac Feed 4</name>
@@ -5025,6 +7141,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13994</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Amer Feed 1</name>
@@ -5039,6 +7162,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13995</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC Amer Feed 2</name>
@@ -5053,6 +7183,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>13996</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>BBC NEWS</name>
@@ -5067,6 +7204,13 @@
       <dvb-guard>1/32</dvb-guard>
       <program>4352</program>
     </options>
+	<tags>
+		<tag>Audio</tag>
+		<tag>Internal</tag>
+		<tag>Network</tag>
+		<tag>World Service</tag>
+		<tag>BBC</tag>
+	</tags>
   </channel>
   <channel>
     <name>AFP TV </name>

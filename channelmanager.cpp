@@ -79,6 +79,10 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
         {
             aChannel.sLocation = pNode->GetNodeContent();
         }
+        else if(pNode->GetName().CmpNoCase(wxT("number")) == 0)
+        {
+            pNode->GetNodeContent().ToULong(&aChannel.nNumber);
+        }
         else if(pNode->GetName().CmpNoCase(wxT("options")) == 0)
         {
             for(wxXmlNode* pVlcNode = pNode->GetChildren(); pVlcNode; pVlcNode = pVlcNode->GetNext())
@@ -90,9 +94,13 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
                 }
             }
         }
-        else if(pNode->GetName().CmpNoCase(wxT("number")) == 0)
+        else if(pNode->GetName().CmpNoCase(wxT("tags")) == 0)
         {
-            pNode->GetNodeContent().ToULong(&aChannel.nNumber);
+            for(wxXmlNode* pTagNode = pNode->GetChildren(); pTagNode; pTagNode = pTagNode->GetNext())
+            {
+                aChannel.setTags.insert(pTagNode->GetNodeContent());
+                m_setTags.insert(pTagNode->GetNodeContent());
+            }
         }
     }
     if(aChannel.sLocation.empty() == false)
@@ -154,4 +162,15 @@ wxXmlNode* ChannelManager::CreateTextNode(const wxString& sNode, const wxString&
     wxXmlNode* pNameNode = new wxXmlNode(wxXML_ELEMENT_NODE, sNode);
     pNameNode->AddChild(new wxXmlNode(wxXML_TEXT_NODE, wxEmptyString, sContent));
     return pNameNode;
+}
+
+
+set<wxString>::const_iterator ChannelManager::GetTagBegin()
+{
+    return m_setTags.begin();
+}
+
+set<wxString>::const_iterator ChannelManager::GetTagEnd()
+{
+    return m_setTags.end();
 }
