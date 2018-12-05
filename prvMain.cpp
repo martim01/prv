@@ -75,8 +75,8 @@ prvDialog::prvDialog(wxWindow* parent,wxWindowID id)
     m_pswpMain->ChangeSelection(wxT("Player"));
 
 
-    ChannelManager::Get().LoadDVBList(wxFileName(wxT("channels.xml")));
-    ChannelManager::Get().SaveDVBList(wxFileName(wxT("prv_channels.xml")));
+    ChannelManager::Get().LoadDVBList(wxFileName(wxT("prv_channels.xml")));
+    //ChannelManager::Get().SaveDVBList(wxFileName(wxT("prv_channels.xml")));
 
 
 }

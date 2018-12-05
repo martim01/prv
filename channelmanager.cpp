@@ -21,18 +21,11 @@ bool ChannelManager::LoadDVBList(const wxFileName& fnDoc)
     wxXmlDocument xmlDoc;
     if(xmlDoc.Load(fnDoc.GetFullPath()) && xmlDoc.GetRoot())
     {
-        for(wxXmlNode* pTrackListNode = xmlDoc.GetRoot()->GetChildren(); pTrackListNode; pTrackListNode = pTrackListNode->GetNext())
+        for(wxXmlNode* pChannelNode = xmlDoc.GetRoot()->GetChildren(); pChannelNode; pChannelNode = pChannelNode->GetNext())
         {
-            if(pTrackListNode->GetName().CmpNoCase(wxT("trackList")) == 0)
+            if(pChannelNode->GetName().CmpNoCase(wxT("channel")) == 0)
             {
-                for(wxXmlNode* pTrackNode = pTrackListNode->GetChildren(); pTrackNode; pTrackNode = pTrackNode->GetNext())
-                {
-                    if(pTrackNode->GetName().CmpNoCase(wxT("track")) == 0)
-                    {
-                        LoadDVBChannel(pTrackNode);
-                    }
-                }
-                break;
+                LoadDVBChannel(pChannelNode);
             }
         }
         return true;
@@ -78,7 +71,7 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
     channel aChannel;
     for(wxXmlNode* pNode = pChannelNode->GetChildren(); pNode; pNode = pNode->GetNext())
     {
-        if(pNode->GetName().CmpNoCase(wxT("title")) == 0)
+        if(pNode->GetName().CmpNoCase(wxT("name")) == 0)
         {
             aChannel.sName = pNode->GetNodeContent();
         }
@@ -86,25 +79,18 @@ void ChannelManager::LoadDVBChannel(wxXmlNode* pChannelNode)
         {
             aChannel.sLocation = pNode->GetNodeContent();
         }
-        else if(pNode->GetName().CmpNoCase(wxT("extension")) == 0)
+        else if(pNode->GetName().CmpNoCase(wxT("options")) == 0)
         {
             for(wxXmlNode* pVlcNode = pNode->GetChildren(); pVlcNode; pVlcNode = pVlcNode->GetNext())
             {
-                if(pVlcNode->GetName().CmpNoCase(wxT("vlc:id")) == 0)
+                aChannel.lstOptions.push_back(wxString::Format(wxT("%s=%s"), pVlcNode->GetName().c_str(), pVlcNode->GetNodeContent().c_str()));
+                if(pVlcNode->GetName().CmpNoCase(wxT("program")) == 0)
                 {
-                    pVlcNode->GetNodeContent().ToULong(&aChannel.nNumber);
-                }
-                else if(pVlcNode->GetName().CmpNoCase(wxT("vlc:option")) == 0)
-                {
-                    aChannel.lstOptions.push_back(pVlcNode->GetNodeContent());
-                    if(pVlcNode->GetNodeContent().BeforeFirst(wxT('=')).CmpNoCase(wxT("program")) == 0)
-                    {
-                        aChannel.sPID = pVlcNode->GetNodeContent().AfterFirst(wxT('='));
-                    }
+                    aChannel.sPID = pVlcNode->GetNodeContent();
                 }
             }
         }
-        else if(pNode->GetName().CmpNoCase(wxT("channel_number")) == 0)
+        else if(pNode->GetName().CmpNoCase(wxT("number")) == 0)
         {
             pNode->GetNodeContent().ToULong(&aChannel.nNumber);
         }
