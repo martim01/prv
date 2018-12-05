@@ -65,7 +65,7 @@ pnlPlayer::pnlPlayer(wxWindow* parent,wxWindowID id,const wxPoint& pos,const wxS
 	m_plstSort->SetBackgroundColour(wxColour(0,0,0));
 	m_plstSort->SetButtonColour(wxColour(wxT("#400080")));
 	m_plstSort->SetSelectedButtonColour(wxColour(wxT("#008000")));
-	m_pVlcPanel = new wxPanel(this, ID_PANEL1, wxPoint(0,0), wxSize(1000,600), wxTAB_TRAVERSAL, _T("ID_PANEL1"));
+	m_pVlcPanel = new wxPanel(this, ID_PANEL1, wxPoint(0,0), wxSize(1000,565), wxTAB_TRAVERSAL, _T("ID_PANEL1"));
 	m_pVlcPanel->SetBackgroundColour(wxColour(0,0,0));
 	m_ppnlFilter = new wxPanel(this, ID_PANEL2, wxPoint(0,600), wxSize(1000,200), wxTAB_TRAVERSAL, _T("ID_PANEL2"));
 	m_ppnlFilter->SetBackgroundColour(wxColour(0,0,0));
@@ -272,13 +272,13 @@ void pnlPlayer::OnLeftUp(wxMouseEvent& event)
 {
     if(m_pVlcPanel->GetSize().x == 1280)
     {
-        m_pVlcPanel->SetSize(1000,600);
+        m_pVlcPanel->SetSize(1000,565);
         m_ppnlChannels->Show();
         m_ppnlFilter->Show();
     }
     else
     {
-        m_pVlcPanel->SetSize(1280,800);
+        m_pVlcPanel->SetSize(1280,720);
         m_ppnlChannels->Show(false);
         m_ppnlFilter->Hide();
     }
@@ -298,7 +298,7 @@ void pnlPlayer::PlayProgram(unsigned long nProgram)
 
         PlayLocation(itChannel->second);
 
-        m_pVlcPanel->SetSize(1280,800);
+        m_pVlcPanel->SetSize(1280,720);
         m_ppnlChannels->Show(false);
         m_ppnlFilter->Hide();
     }
